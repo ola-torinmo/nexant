@@ -1,0 +1,109 @@
+@font-face {
+  font-family: lato;
+  src: url(./assets/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: jose;
+  src: url(./assets/JosefinSans-Regular.ttf);
+}
+
+h1{
+  font-family: lato;
+}
+p{
+  font-family: jose;
+}
+
+
+
+
+.bg-custom-background {
+  background-image: url('/src/assets/usframe.png');
+  /* Additional background properties can be added here */
+}
+.proframe{
+  position: absolute;
+}
+
+.pro1{
+  position: relative;
+}
+
+.pro1::before{
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 65%;
+  width: 55%;
+  height: 100%; 
+  background-color: white;
+  transform: translate(85%,60%);
+
+
+}
+.pro1::after{
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 65%;
+  width: 55%;
+  height: 100%;
+  background-color: white;
+  transform: translate(-5%,40%);
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
