@@ -23,20 +23,21 @@ const Navbar = ()=>{
                         <button className="bg-[#C4942D] text-[#fff] px-6 py-2 rounded-md text-sm">Contact us</button>
                     </div>
 
-                    <div className='md:hidden'  onClick={handleClick}>
-                        <img src={toggle?close:hamburgerMenu} />
+                    <div className='md:hidden '  onClick={handleClick}>
+                        <img src={toggle?close:hamburgerMenu}  />
                     </div>
 
             </div>
 
-            <div className={toggle?'absolute z-10 p-4  bg-white w-full px-8 md:hidden border-b':'hidden'}>
-                <ul>
+            <div className={toggle?'absolute z-10 p-4  bg-[#C4942D] text-[white] w-full px-8 md:hidden border-b':'hidden'}>
+                <ul className="ml-[90px]">
                         <li className='p-4 hover:bg-gray-100'>About us</li>
                         <li className='p-4 hover:bg-gray-100'>Our services </li>
                         <li className='p-4 hover:bg-gray-100'>Our projects </li>
                         <li className='p-4 hover:bg-gray-100'>Our blog</li>
                         
                 </ul>
+                <button className="bg-white text-[#C4942D] mt-[30px] ml-[75px] px-12 py-2 rounded-md text-sm">Contact us</button>
             </div>
 
         </div>
