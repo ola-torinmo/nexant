@@ -15,16 +15,16 @@ const Projects = () => {
               <p className=' md:text-[13px] text-[11px] md:w-[700px] w-[300px] md:ml-[150px] ml-[50px] pb-[px]  '>To deliver world class infrastructure and engineering consultancy services by reinforcing our worldwide corporate alliances and upholding top-tier quality and ethical standards'</p>
           </div>
 
-         <div className=' md:-mt-[100px] -mt-[70px] ' >
-           <img className='relative z-20 w-[1500px] h-[200px]  md:ml-[115px] ml-[5px]' src={Elipse} />
-            <div className='flex space-x-3 proframe -mt-[100px] md:ml-[115px] ml-[7px]  '>
+         <div className=' md:-mt-[100px] -mt-[70px]  ' >
+           <img className='relative z-20 w-[1500px] h-[200px]  md:ml-[115px] ml-[1%] ' src={Elipse} />
+            <div className='flex space-x-3 proframe -mt-[100px] md:ml-[115px] ml-[2%]  '>
                 <img src={Pro1} className='md:w-[248px] w-[85px] md:h-[500px] h-[330px] '  />
-                <img src={Pro2} className='md:w-[248px] w-[85px] md:h-[500px] h-[330px]' />
+                <img src={Pro2} className='md:w-[248px] w-[85px] md:h-[500px] h-[370px]' />
                 <img src={Pro3} className='md:w-[248px] w-[85px] md:h-[500px] h-[330px]' />
                 <img src={Pro4} className='md:w-[248px] w-[85px] md:h-[500px] h-[330px]' />
 
             </div>
-            <img className='relative z-20 w-[1500px] h-[200px]  md:ml-[115px] ml-[5px] md:mt-[300px] mt-[130px] ' src={Elipse} />
+            <img className='relative z-20 w-[1500px] h-[200px]  md:ml-[115px] ml-[1%]  md:mt-[300px] mt-[130px] ' src={Elipse} />
           </div>  
         </div>
 
