@@ -8,7 +8,7 @@ export default function Jumbotron(props) {
     <div className='jumbo'>
         
         <img src={props.img} fluid 
-        className='image w-full md:h-[400px] h-[200px] '   
+        className='image w-full md:h-[350px] h-[200px] '   
         
         />
         <h1 className='md:text-3xl text-lg md:mt-[-20%] mt-[-30%] md:pl-[7%] pl-[12%] text-white' >{props.title}</h1>
