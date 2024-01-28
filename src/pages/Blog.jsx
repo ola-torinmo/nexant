@@ -1,9 +1,19 @@
 import React from 'react'
-// import './Blog.css'
+import Navbar from '../component/Navbar'
+import Footer from '../component/Footer'
+import Blogsection from '../component/Blogsection'
+import Blogcontent from '../component/Blogcontent'
+import Subscribe from '../component/Subscribe'
 
 function Blog() {
   return (
-    <div>Blog</div>
+    <>
+    <Navbar/>
+    <Blogcontent/>
+    <Blogsection title="Our Blog"/>
+    <Subscribe/>
+    <Footer/>
+    </>
   )
 }
 

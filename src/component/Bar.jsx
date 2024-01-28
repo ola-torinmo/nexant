@@ -9,10 +9,10 @@ export default function Bar() {
 
   
   return (
-    <div className=''>
+    <div className='w-full'>
         
-        <img src={group8} fluid 
-        className='image w-full md:h-[200px] h-[260px] '
+        <img src={group8} 
+        className ='w-full md:h-[200px] h-[260px] '
         
         
         />

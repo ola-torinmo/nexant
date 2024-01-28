@@ -18,7 +18,8 @@ function Home() {
     <Us/>
     <Services/>
     <Projects/>
-    <Blogsection/>
+    <Blogsection title="Our Blog"
+    body="Unleashing Innovative Insights in Construction"/>
     <Footer/>
     
    </>
