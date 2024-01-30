@@ -1,7 +1,7 @@
 import React,{ useState } from "react";
 import logo from "../assets/nexantlogo.png"
 import close from "../assets/close.svg"
-import hamburgerMenu from "../assets/hamburgerMenu.svg"
+import hamburgerMenu from "../assets/hamburgermenu.svg"
 import { Link } from 'react-router-dom';
 
 
