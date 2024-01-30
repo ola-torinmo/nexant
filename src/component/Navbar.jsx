@@ -11,7 +11,7 @@ const Navbar = ()=>{
     return(
         <div className="w-full h-[70px] bg-[#C4942D1A]  ">
             <div className='md:max-w-[1028px] max-w-[600px] m-auto w-full h-full flex justify-between   items-center md:px-0 px-6'>
-                    <img src={logo} className="pt-5"/>
+                    <img src={logo} className="" alt="nexant"/>
                     <div className="hidden md:flex items-center ">
                         <ul className="flex gap-6 pr-[150px]">
                             <li>About us</li>

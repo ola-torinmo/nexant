@@ -1,9 +1,19 @@
 import React from 'react'
-// import './Contact.css'
+import Navbar from '../component/Navbar'
+import Footer from '../component/Footer'
+import Form from '../component/Form'
+import Contactlink from '../component/Contactlink'
+
+
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <>
+    <Navbar/>
+    <Form/>
+    <Contactlink/>
+    <Footer/>
+    </>
   )
 }
 
