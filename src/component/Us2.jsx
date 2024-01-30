@@ -1,7 +1,7 @@
 import React from 'react'
 // import Frame10 from '../assets/Frame10.png'
 
- const Us = (props) => {
+ const Us2 = (props) => {
   return (
     <div className='w-full h-full bg-[#C4942D1A]'>
         <div  className='md:max-w-[1028px]  m-auto w-full h-[900px] flex md:flex-row flex-col md:justify-between  items-center  md:pt-[100px] pt-[100px]'>
@@ -19,4 +19,4 @@ import React from 'react'
   )
 }
 
-export default Us;
+export default Us2;
