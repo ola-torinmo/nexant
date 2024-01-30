@@ -3,6 +3,7 @@ import '../App.css'
 import Frame9 from '../assets/Frame9.png';
 import Frame8 from '../assets/Frame8.png';
 import Frame7 from '../assets/Frame7.png';
+import { Link } from 'react-router-dom';
 
  const Hero = () => {
   return (
@@ -12,8 +13,12 @@ import Frame7 from '../assets/Frame7.png';
                 <h1 className='md:w-[600px] w-[350px] md:text-4xl text-xl text-left pb-[20px] '>Engineering <span className='text-[#C4942D]'>Excellence</span> And Guiding <span className='text-[#FDD575]'>Projects</span> To <span className='text-[#C4942D]'>Perfection</span></h1>
                 <p className='md:w-[500px] w-[300px] text-sm pb-[20px]'>As an Indigenous ISO Certified Consultancy Firm specializing in Engineering Design & Construction Supervision, we are your partners from project inception to flawless completion. </p>
 
-                <button className="bg-[#C4942D] text-[#fff] md:px-7 px-4 py-2 mr-3 rounded-md md:text-sm text-xs">Explore our services </button>
-                <button className=" text-[#C4942D] md:px-12 px-6 py-1 outline outline-offset-2 outline-[#C4942D] rounded-md md:text-sm text-xs">Contact us</button>
+                <Link to="/service">
+                <button className="bg-[#C4942D] text-[#fff] md:px-7 px-4 py-2 mr-3 rounded-md md:text-sm text-xs">Explore our services</button>
+                </Link>
+                <Link to="/contact">
+                <button className="text-[#C4942D] md:px-12 px-6 py-1 outline outline-offset-2 outline-[#C4942D] rounded-md md:text-sm text-xs">Contact us</button>
+                </Link>
             </div>
             
             <div className='flex flex-row  md:space-x-9 space-x-2 md:-mt-[240px] -mt-[270px] '>

@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "../assets/nexantlogo.png"
 import arrow from '../assets/arrow.svg'
+import { Link } from 'react-router-dom';
 // import icon1 from '../assets/icon1.png'
 // import icon2 from '../assets/icon2.svg'
 // import icon3 from '../assets/icon3.svg'
@@ -70,10 +71,11 @@ const Footer = () => {
                 </div>
                 
                 <div className="mb-6 md:mb-0 md:pr-[200px] md:ml-[-70px]">
-                    <a href="https://flowbite.com" className="flex items-center pb-10">
-                        <img src={logo} className="mr-3 " alt="Nexant Logo" />
-                        
-                    </a>
+                <Link to="/">
+                <a className="flex items-center pb-10">
+                    <img src={logo} className="mr-3" alt="Nexant Logo" />
+                </a>
+                </Link>
                     <p className='w-[300px] text-[14px]'>
                     We don’t just build structures; we craft legacies. With a steadfast commitment to precision, we turn blueprints into living, breathing spaces that send as a testament to our dedication.
                     </p>
