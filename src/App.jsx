@@ -1,9 +1,9 @@
 import './App.css'
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Blog from './Pages/Blog';
-import Contact from './Pages/Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import Blog from './pages/Blog';
+import Contact from './pages/Contact';
 import Service from './pages/Service';
 import Project from './pages/Project';
 
