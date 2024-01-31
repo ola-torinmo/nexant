@@ -1,5 +1,5 @@
 import React from 'react';
-import group8 from '../assets/group8.png'
+import group8 from '../assets/Group8.png'
 import Frame1 from '../assets/Frame1.png'
 import Frame2 from '../assets/Frame2.png'
 import Frame3 from '../assets/Frame3.png'

@@ -6,7 +6,7 @@ import Footer from '../component/Footer';
 import Headline from '../component/Headline';
 import Services2 from '../component/Services2';
 
-function Services  ()  {
+function Service  ()  {
   return (
    <>
    <Navbar/>
@@ -23,4 +23,4 @@ function Services  ()  {
   )
 }
 
-export default Services;
+export default Service;
