@@ -1,8 +1,8 @@
 import React from 'react'
 import '../App.css'
-import Frame9 from '../assets/frame9.png';
-import Frame8 from '../assets/frame8.png';
-import Frame7 from '../assets/frame7.png';
+import Frame9 from '../assets/Frame9.png';
+import Frame8 from '../assets/Frame8.png';
+import Frame7 from '../assets/Frame7.png';
 import { Link } from 'react-router-dom';
 
  const Hero = () => {
