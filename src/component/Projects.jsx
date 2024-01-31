@@ -3,7 +3,7 @@ import Pro1 from '../assets/pro1.png';
 import Pro2 from '../assets/pro2.png';
 import Pro3 from '../assets/pro3.png';
 import Pro4 from '../assets/pro4.png';
-import Elipse from '../assets/ellipse.svg';
+import Elipse from '../assets/Ellipse.svg';
 
 const Projects = () => {
   return (
