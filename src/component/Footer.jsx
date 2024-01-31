@@ -11,8 +11,8 @@ const Footer = () => {
   return (
    <>
 
-   <section className='flex mx-auto max-w-screen-xl'>
-   <aside className="p-4 bg-[#C4942D] md:w-[580px] w-[60%] " >
+   <section className='flex mx-auto w-full'>
+   <aside className="p-4 bg-[#C4942D] md:w-[60%] w-[60%] " >
         <div className=" mx-auto flex   place-items-center  text-center justify-center md:pl-[200px]">
         
                 
@@ -29,7 +29,7 @@ const Footer = () => {
 
        
     </aside>
-    <aside className="p-4 bg-[#4A3C34] md:w-[657px] w-[40%] " >
+    <aside className="p-4 bg-[#4A3C34] md:w-[40%] w-[40%] " >
         <div className=" mx-auto flex   place-items-center  text-center justify-center md:pl-[200px] ">
         
                         
