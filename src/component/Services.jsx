@@ -1,7 +1,7 @@
 import React from 'react'
-import frame1 from '../assets/Frameus1.svg'
-import frame2 from '../assets/Frameus2.svg'
-import frame3 from '../assets/Frameus3.svg'
+import frame1 from '../assets/frameus1.svg'
+import frame2 from '../assets/frameus2.svg'
+import frame3 from '../assets/frameus3.svg'
 import { Link } from 'react-router-dom'
 
 const Services = () => {

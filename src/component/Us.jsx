@@ -1,5 +1,5 @@
 import React from 'react'
-import Frame10 from '../assets/Frame10.png'
+import Frame10 from '../assets/frame10.png'
 import { Link } from 'react-router-dom';
 
  const Us = () => {

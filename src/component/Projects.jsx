@@ -1,9 +1,9 @@
 import React from 'react'
-import Pro1 from '../assets/Pro1.png';
-import Pro2 from '../assets/Pro2.png';
-import Pro3 from '../assets/Pro3.png';
-import Pro4 from '../assets/Pro4.png';
-import Elipse from '../assets/Ellipse.svg';
+import Pro1 from '../assets/pro1.png';
+import Pro2 from '../assets/pro2.png';
+import Pro3 from '../assets/pro3.png';
+import Pro4 from '../assets/pro4.png';
+import Elipse from '../assets/ellipse.svg';
 
 const Projects = () => {
   return (
