@@ -32,7 +32,7 @@ const Services2 = () => {
                         <a href="#">
                             <h5 class="mb-2 md:text-2xl text-base font-semibold tracking-tight text-[#C4942D]  md:pb-[10px] pb-[1px]">Construction Supervision</h5>
                         </a>
-                        <p class="mb-3 font-normal md:text-[12px] text-[9px]">Guiding Excellence, Ensuring Precision: Nexant's Construction Supervision Services Go Beyond Oversight, Orchestrating a Symphony of Expertise to Transform Blueprints into Living Structures, Where Every Detail Matters and Quality Prevails</p>
+                        <p class="mb-3 font-normal md:text-[12px] text-[9px] ">Guiding Excellence, Ensuring Precision: Nexant's Construction Supervision Services Go Beyond Oversight, Orchestrating a Symphony of Expertise to Transform Blueprints into Living Structures, Where Every Detail Matters and Quality Prevails</p>
                         
                     </div>
 

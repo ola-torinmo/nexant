@@ -83,7 +83,7 @@ const Footer = () => {
                     <form className=' pt-[50px]'>   
                         <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only ">Search</label>
                         <div className="relative">
-                            <input type="search" id="search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-[#FDD575] rounded-lg bg-[#C4942D1A] focus:ring-blue-500 focus:border-blue-500 mr-[300px]" placeholder="name@gmail.com" required/>
+                            <input type="search" id="search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-[#FDD575] rounded-lg bg-[#C4942D1A] focus:ring-blue-500 focus:border-blue-500 md:mr-[300px]" placeholder="name@gmail.com" required/>
                             <button type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-[#C4942D]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2  "><img src={arrow}  /></button>
                         </div>
                         <p id="helper-text-explanation" className="mt-2 text-sm text-white pt-6">Subscribe to our news letter </p>

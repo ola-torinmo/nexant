@@ -11,7 +11,7 @@ const Projects = () => {
         <div className='md:max-w-[1028px] max-w-[600px] h-[600px]  md:pt-[50px] md:mt-[100px] mt-[50px] '>
           <div className='text-center md:pl-[150px] relative z-40  '>
               <p className='text-[#C4942D] text-[11px] pb-[10px] md:ml-[130px] '>Our projects</p>
-              <h1 className='md:text-3xl text-[lg] md:ml-[200px] md:w-[600px] w-[400px] pb-[10px]'>Our Latest projects showcase</h1>
+              <h1 className='md:text-3xl text-[lg] md:ml-[200px] ml-[50px] md:w-[600px] text-center w-[300px] pb-[10px]'>Our Latest projects showcase</h1>
               <p className=' md:text-[13px] text-[11px] md:w-[700px] w-[300px] md:ml-[150px] ml-[50px] pb-[px]  '>To deliver world class infrastructure and engineering consultancy services by reinforcing our worldwide corporate alliances and upholding top-tier quality and ethical standards'</p>
           </div>
 
