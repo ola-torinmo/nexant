@@ -4,6 +4,7 @@ import Footer from '../component/Footer'
 import Blogsection from '../component/Blogsection'
 import Blogcontent from '../component/Blogcontent'
 import Subscribe from '../component/Subscribe'
+import '../App.css'
 
 function Blog() {
   return (

@@ -5,6 +5,7 @@ import Jumbotron from '../component/Jumbotron'
 import Footer from '../component/Footer';
 import Headline from '../component/Headline';
 import Services2 from '../component/Services2';
+import '../App.css'
 
 function Service  ()  {
   return (

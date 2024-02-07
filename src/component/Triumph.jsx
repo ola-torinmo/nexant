@@ -56,7 +56,7 @@ import vision from '../assets/vision.svg'
                     Our Mission
 
                     </h1>
-                    <p className='md:w-[400px] w-[155px] md:text-sm text-[10px]  md:ml-[30px] ml-[10px] md:text-black text-white'>
+                    <p className='md:w-[400px] w-[155px] md:text-sm text-[10px]  md:ml-[30px] ml-[10px] md:text-[#434344] text-white'>
                     To deliver world class infrastructure and engineering consultancy services by reinforcing our worldwide corporate alliances and upholding top-tier quality and ethical standards'
 
                     </p>
@@ -67,7 +67,7 @@ import vision from '../assets/vision.svg'
                     <h1 className='w-[30px] md:text-2xl text-base pb-[5px] md:ml-[30px] ml-[10px] md:mt-[15px] mt-[10px] md:text-[#C4942D] text-white'>
                     Vision
                     </h1>
-                    <p className='md:w-[400px] w-[155px] md:text-sm text-[10px] md:ml-[30px] ml-[10px] md:text-black text-white'>
+                    <p className='md:w-[400px] w-[155px] md:text-sm text-[10px] md:ml-[30px] ml-[10px] md:text-[#434344] text-white'>
                     Globally setting a tradition of excellent Consultancy services that continually exceeds customer expectations
 
                     </p>

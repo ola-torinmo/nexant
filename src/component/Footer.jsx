@@ -76,7 +76,7 @@ const Footer = () => {
                     <img src={logo} className="mr-3" alt="Nexant Logo" />
                 </a>
                 </Link>
-                    <p className='w-[300px] text-[14px]'>
+                    <p className='w-[300px] text-[14px] text-white'>
                     We don’t just build structures; we craft legacies. With a steadfast commitment to precision, we turn blueprints into living, breathing spaces that send as a testament to our dedication.
                     </p>
 

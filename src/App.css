@@ -9,9 +9,13 @@
 
 h1{
   font-family: lato;
+  color:#434344;
+  
 }
-p{
+p, ul{
   font-family: jose;
+  color: #434344;
+  font-weight: 200;
 }
 
 

@@ -16,7 +16,7 @@ const Navbar = ()=>{
                 <img src={logo} className="" alt="nexant" />
                 </Link>
                 <div className="hidden md:flex items-center">
-                <ul className="flex gap-6 pr-[150px]">
+                <ul className="flex gap-6 pr-[150px] text-[16px]">
                     <li><Link to="/about">About us</Link></li>
                     <li><Link to="/service">Our services</Link></li>
                     <li><Link to="/project">Our projects</Link></li>
@@ -32,7 +32,7 @@ const Navbar = ()=>{
             </div>
 
             <div className={toggle ? 'absolute z-10 p-4 bg-[#C4942D] text-[white] w-full px-8 md:hidden border-b' : 'hidden'}>
-                <ul className="ml-[90px]">
+                <ul className="ml-[90px] text-[16px]">
                 <li className='p-4 hover:bg-gray-100'><Link to="/about">About us</Link></li>
                 <li className='p-4 hover:bg-gray-100'><Link to="/service">Our services</Link></li>
                 <li className='p-4 hover:bg-gray-100'><Link to="/project">Our projects</Link></li>

@@ -25,7 +25,7 @@ const Services = () => {
                         <p class="mb-3 font-normal md:text-[12px] text-[9px] text-white">Designing Tomorrow, Building Today: Nexant's Engineering Design Services Combine Visionary Creativity with Technical Precision, Crafting Blueprints That Transcend Expectations and Set the Foundation for Enduring Structures</p>
                         
                     </div>
-                    <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px] p-6 border border-gray-200 rounded-lg bg-white  " >
+                       <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px] p-6 border border-gray-200 rounded-lg bg-white  " >
                         
                         <img src={frame2} className='pb-[10px] md:w-[70px] w-[40px]'/>
                         
@@ -64,7 +64,7 @@ const Services = () => {
 
                 </div>
                 <Link to="service">
-                <button className="bg-[#C4942D] text-[#fff] px-6 py-2 rounded-md text-sm mt-[30px] md:ml-[455px] ml-[145px]">Learn More</button>
+                <button className="bg-[#C4942D] text-[#fff] px-6 py-2 rounded-md text-sm mt-[70px] md:ml-[455px] ml-[145px]">Learn More</button>
                 </Link>
             </div>
         

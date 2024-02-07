@@ -18,6 +18,7 @@ import usb from '../assets/usb.png'
 import usc from '../assets/usc.png'
 import Us2 from '../component/Us2'
 import Us3 from '../component/Us3'
+import '../App.css'
 
 function About() {
   return (

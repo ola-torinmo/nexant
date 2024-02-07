@@ -17,15 +17,15 @@ export default function Bar() {
         
         />
             
-        <div className='flex md:pl-[15%] pl-[14%] md:mt-[-150px] mt-[-250px] md:pb-[0px] pb-[80px] my-[5%]'>
+        <div className='flex md:pl-[15%] pl-[14%] md:mt-[-150px] mt-[-250px] md:pb-[0px] pb-[80px] my-[5%] '>
                 <div className='flex md:flex-row flex-col md:mt-0 mt-'>
-                    <div className='text-white flex items-center'>
+                    <div className=' flex items-center'>
                         <img src={Frame1} className='md:w-[60px] w-[40px] md:h-[60px] h-[40px]' />
                         <div className='ml-4 md:ml- mt-4 '>
-                            <h1 className='md:text-4xl text-lg '>
+                            <h1 className='md:text-4xl text-lg text-white'>
                             10 Years+
                             </h1>
-                            <p className='md:w-[180px] text-[11px] text-[9px] pb-4'>
+                            <p className='md:w-[180px] text-[11px] text-[9px] pb-4 text-white'>
                             In Business
                             </p>
                         </div>
@@ -33,10 +33,10 @@ export default function Bar() {
                     <div className='text-white flex items-center mt- '>
                         <img src={Frame2} className='md:w-[60px] w-[40px] md:h-[60px] h-[40px] -mt-2 md:mt-0' />
                         <div className='ml-4 ml- md:mt-5 mt-3'>
-                            <h1 className='md:text-4xl text-xl '>
+                            <h1 className='md:text-4xl text-xl text-white '>
                             30+
                             </h1>
-                            <p className='md:w-[180px] text-[11px] text-[9px] pb-6'>
+                            <p className='md:w-[180px] text-[11px] text-[9px] pb-6 text-white'>
                             Projects Completed
                             </p>
                         </div>
@@ -46,10 +46,10 @@ export default function Bar() {
                     <div className='text-white flex items-center'>
                         <img src={Frame3} className='md:w-[60px] w-[40px] md:h-[60px] h-[40px]' />
                         <div className='ml-4 md:ml-6 '>
-                            <h1 className='md:text-4xl text-xl  md:mt-2 mt-4'>
+                            <h1 className='md:text-4xl text-xl  md:mt-2 mt-4 text-white'>
                             25+
                             </h1>
-                            <p className='md:w-[180px] text-[11px] text-[9px] pb-4'>
+                            <p className='md:w-[180px] text-[11px] text-[9px] pb-4 text-white'>
                             Clients Worldwide
                             </p>
                         </div>
@@ -57,10 +57,10 @@ export default function Bar() {
                     <div className='text-white flex items-center mt-4 md:mt-0 md:-ml-12'>
                         <img src={Frame4} className='md:w-[60px] w-[40px] md:h-[60px] h-[40px] -mt-4 md:mt-0' />
                         <div className='ml-4 md:ml-6'>
-                            <h1 className='md:text-4xl text-xl  md:mt-2 -mt-2'>
+                            <h1 className='md:text-4xl text-xl  md:mt-2 -mt-2 text-white'>
                             300
                             </h1>
-                            <p className='md:w-[80px] text-[11px] text-[9px] pb-4'>
+                            <p className='md:w-[80px] text-[11px] text-[9px] pb-4 text-white'>
                             Active Workers
                             </p>
                         </div>

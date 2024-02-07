@@ -10,6 +10,7 @@ import completed from '../assets/completed.png'
 import ongoing from '../assets/ongoing.png'
 import Headline2 from '../component/Headline2';
 import Media from '../component/Media';
+import '../App.css'
 
 function Project ()  {
   return (
