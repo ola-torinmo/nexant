@@ -13,7 +13,7 @@ function Subscribe ()  {
                             <form action="#">
                                 <div className="max-w-sm mx-auto p-1 pr-0 flex items-center">
                                     <input type="email" placeholder="yourmail@example.com"
-                                        className="flex-1 appearance-none rounded shadow py-2 md:px-12 md:pl-0 pl-3 text-grey-dark mr-2  focus:outline-none border border-[#FDD575] bg-transparent"/>
+                                        className="flex-1 appearance-none rounded shadow py-2 md:px-12 md:pl-0 pl-3 text-grey-dark mr-2  focus:outline-none border border-[#FDD575] bg-transparent text-center"/>
                                     <button type="submit"
                                         className="bg-[#C4942D] text-white text-base font-semibold rounded-md shadow-md hover:bg-indigo-600 py-2 md:px-6 px-4">Subscribe</button>
                                 </div>

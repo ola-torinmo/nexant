@@ -11,12 +11,12 @@ const Navbar = ()=>{
 
     return(
         <div className="w-full h-[70px] bg-[#C4942D1A]">
-            <div className='md:max-w-[1028px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-6'>
+            <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] m-auto w-full h-full flex justify-between items-center md:px-0 px-6'>
                 <Link to="/">
                 <img src={logo} className="" alt="nexant" />
                 </Link>
                 <div className="hidden md:flex items-center">
-                <ul className="flex gap-6 pr-[150px] text-[16px]">
+                <ul className="flex gap-6 2xl:gap-12 pr-[150px] text-[16px]">
                     <li><Link to="/about">About us</Link></li>
                     <li><Link to="/service">Our services</Link></li>
                     <li><Link to="/project">Our projects</Link></li>
@@ -31,8 +31,8 @@ const Navbar = ()=>{
                 </div>
             </div>
 
-            <div className={toggle ? 'absolute z-10 p-4 bg-[#C4942D] text-[white] w-full px-8 md:hidden border-b' : 'hidden'}>
-                <ul className="ml-[90px] text-[16px]">
+            <div className={toggle ? 'absolute z-10 p-4 bg-[#C4942D] text-white w-full px-8 md:hidden border-b' : 'hidden'}>
+                <ul className="ml-[100px] text-[16px] text-white">
                 <li className='p-4 hover:bg-gray-100'><Link to="/about">About us</Link></li>
                 <li className='p-4 hover:bg-gray-100'><Link to="/service">Our services</Link></li>
                 <li className='p-4 hover:bg-gray-100'><Link to="/project">Our projects</Link></li>
