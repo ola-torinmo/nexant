@@ -66,7 +66,7 @@ const Footer = () => {
         <div className="mx-auto max-w-screen-xl  ">
         
             <div className="md:flex md:justify-between md:pt-[50px] pt-[20px]  md:px-[50px] px-[20px]">
-                <div className='md:w-[120px] w-[80px] md:h-[100px] h-[60px] bg-[#C4942D] md:pl-[10px] pl-[115px] 2xl:ml-[-300px] -skew-y-12 rounded-r -translate-x-[5rem] md:mt-[50px] opacity-50'>
+                <div className='md:w-[120px] w-[80px] md:h-[100px] h-[60px] bg-[#C4942D] md:pl-[10px] pl-[115px] 2xl:ml-[-300px] xl:ml-[-15px] -skew-y-12 rounded-r -translate-x-[5rem] md:mt-[50px] opacity-50'>
 
                 </div>
                 
@@ -93,13 +93,13 @@ const Footer = () => {
                     <div>
                         <h2 className="md:mb-[70px] mb-[20px] text-sm font-semibold text-gray-900 uppercase text-white">Company</h2>
                         <ul className="text-white">
-                            <li className="mb-4">
+                            <li className="mb-4 text-white">
                                 <a href="https://flowbite.com" className="hover:underline">Home</a>
                             </li>
-                            <li className="mb-4" >
+                            <li className="mb-4 text-white" >
                                 <a href="#" className="hover:underline">About Us</a>
                             </li>
-                            <li>
+                            <li className="text-white">
                                 <a href="#" className="hover:underline">Contact Us</a>
                             </li>
                         </ul>
@@ -107,16 +107,16 @@ const Footer = () => {
                     <div>
                         <h2 className="md:mb-[70px] mb-[20px] text-sm font-semibold text-gray-900 uppercase text-white">Alternatives</h2>
                         <ul className="text-white">
-                            <li className="mb-4">
+                            <li className="mb-4 text-white">
                                 <a href="#" className="hover:underline ">Oil & Gas</a>
                             </li>
-                            <li className="mb-4">
+                            <li className="mb-4 text-white">
                                 <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Road projects</a>
                             </li>
-                            <li className="mb-4">
+                            <li className="mb-4 text-white">
                                 <a href="#" className="hover:underline ">Railway projects</a>
                             </li>
-                            <li className="mb-4">
+                            <li className="mb-4 text-white">
                                 <a href="#" className="hover:underline ">Building projects</a>
                             </li>
                         </ul>
@@ -124,19 +124,19 @@ const Footer = () => {
                     <div>
                         <h2 className="md:mb-[70px] mb-[20px] text-sm font-semibold text-gray-900 uppercase text-white">Contact Us</h2>
                         <ul className="text-white">
-                            <li className="mb-4">
+                            <li className="mb-4 text-white">
                                 <a href="#" className="hover:underline">Email: info@nexantconsult.com</a>
                             </li>
-                            <li className="mb-4">
+                            <li className="mb-4 text-white">
                                 <a href="#" className="hover:underline">Website: www.nexantconsult.com</a>
                             </li>
-                            <li className="mb-4">
+                            <li className="mb-4 text-white">
                                 <a href="#" className="hover:underline">Telephone: 01-2956505+234-907-758-7014</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div className='md:w-[120px] w-[80px] md:h-[100px] h-[60px] bg-[#929292]  md:mt-[100px]  -skew-y-12 rounded-l md:translate-x-[4.1rem] translate-x-[3%] md:ml-[0%] ml-[85%] md:pl-[0] pl-[25%] 2xl:mr-[-304px]   opacity-50 '>
+                <div className='md:w-[120px] w-[80px] md:h-[100px] h-[60px] bg-[#929292]  md:mt-[100px]  -skew-y-12 rounded-l md:translate-x-[4.1rem] translate-x-[3%] md:ml-[0%] ml-[85%] md:pl-[0] pl-[25%] 2xl:mr-[-304px] xl:mr-[-28px]   opacity-50 '>
 
                 </div>
             </div>

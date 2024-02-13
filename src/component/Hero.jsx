@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
                 <button className="bg-[#C4942D] text-[#fff] 2xl:px-9 2xl:py-3 md:px-7 px-4 py-2 mr-3 rounded-md 2xl:text-lg md:text-sm text-xs">Explore our services</button>
                 </Link>
                 <Link to="/contact">
-                <button className="text-[#C4942D] 2xl:px-12 2xl:py-2 md:px-12 px-6 py-1 outline outline-offset-2 outline-2 outline-[#C4942D] rounded-md 2xl:text-lg md:text-sm text-xs">Contact us</button>
+                <button className="text-[#C4942D] 2xl:px-12 2xl:py-2 md:px-12 px-6 py-1 outline outline-offset-2 outline-2 outline-[#C4942D] xl:rounded-md rounded-md 2xl:text-lg md:text-sm text-xs">Contact us</button>
                 </Link>
             </div>
             
