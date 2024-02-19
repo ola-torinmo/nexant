@@ -17,7 +17,7 @@ export default function Bar() {
         
         />
             
-        <div className='flex 2xl:pl-[20%] md:pl-[15%] pl-[14%] md:mt-[-150px] mt-[-250px] md:pb-[0px] pb-[80px] my-[5%] '>
+        <div className='flex 2xl:pl-[20%] md:pl-[18%] pl-[14%] md:mt-[-150px] mt-[-250px] md:pb-[0px] pb-[80px] my-[5%] '>
                 <div className='flex md:flex-row flex-col md:mt-0 mt-'>
                     <div className=' flex items-center'>
                         <img src={Frame1} className='2xl:w-[80px] md:w-[60px] w-[40px] 2xl:h-[80px] md:h-[60px] h-[40px]' />

@@ -136,7 +136,10 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='md:w-[120px] w-[80px] md:h-[100px] h-[60px] bg-[#929292]  md:mt-[100px]  -skew-y-12 rounded-l md:translate-x-[4.1rem] translate-x-[3%] md:ml-[0%] ml-[85%] md:pl-[0] pl-[25%] 2xl:mr-[-304px] xl:mr-[-28px]   opacity-50 '>
+                <div className='md:w-[120px] w-[80px] md:h-[100px] h-[60px] bg-[#929292]  md:mt-[100px]  -skew-y-12 rounded-l md:translate-x-[4.1rem] translate-x-[3%] md:ml-[0%] ml-[85%] md:pl-[0] pl-[25%] 2xl:mr-[-304px]  ipad-pro:mr-[-28px]  opacity-50 '>
+                    {/* <-------------------------------------------------------------------------->
+                                          ipad pro screen @lg:mr-[-3%] */
+                    }
 
                 </div>
             </div>

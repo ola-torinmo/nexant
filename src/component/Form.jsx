@@ -10,7 +10,7 @@ function Form (){
                     <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">We have available 24/7 to assist, support and resolve issue pertaining to our client.</p>
                     <p className='mt-[50px] font-medium text-center'>Fill the form or <span className='underline underline-offset-4'>send us an email</span></p>
                     <img src={dotarrow} className='md:ml-[35%] ml-[25%] relative z-30' alt="" />
-                <form action="#" class="space-y-8 border rounded my-[100px] md:p-[70px] p-[30px] mt-[-50px] shadow-lg shadow-[#C4942D] bg-white relative z-20  ">
+                <form action="#" class="space-y-8 border rounded my-[100px] md:p-[70px] p-[30px] mt-[-50px] shadow-md shadow-[#C4942D] bg-white relative z-20  ">
                     <div className=' flex'>
 
                     <div className="p-2 w-1/2">

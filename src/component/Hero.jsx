@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
  const Hero = () => {
   return (
    <div className='w-full h-full bg-[#C4942D1A]'>
-        <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] md:m-auto md:pt-[80px] pt-[20px] md:px-0 px-[10px] '>
+        <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] md:m-auto md:pt-[80px] pt-[20px] md:px-0 px-[20px] '>
             <div className='pt-[10px]  '>
                 <h1 className='2xl:w-[800px] md:w-[600px] w-[350px] 2xl:text-5xl md:text-4xl text-xl text-left pb-[20px] '>Engineering <span className='text-[#C4942D] 2xl:leading-[70px] leading-[35px]'>Excellence</span> And Guiding <span className='text-[#FDD575] 2xl:leading-[70px] leading-[35px]'>Projects</span> To <span className='text-[#C4942D] 2xl:leading-[70px] leading-[35px]'>Perfection</span></h1>
                 <p className='2xl:w-[800px] md:w-[500px] w-[300px] 2xl:text-lg text-sm pb-[20px] leading-[20px] '>As an Indigenous ISO Certified Consultancy Firm specializing in Engineering Design & Construction Supervision, we are your partners from project inception to flawless completion. </p>
