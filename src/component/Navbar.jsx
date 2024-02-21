@@ -32,14 +32,14 @@ const Navbar = ()=>{
             </div>
 
             <div className={toggle ? 'absolute z-10 p-4 bg-[#C4942D] text-white w-full px-8 md:hidden border-b' : 'hidden'}>
-                <ul className="ml-[90px] text-[16px] ">
-                <li className='p-4 hover:text-[#434344]  text-white'><Link to="/about">About us</Link></li>
+                <ul className="ml-[120px] text-[16px] ">
+                <li className='p-4 hover:text-[#434344] hover:bg-white  text-white'><Link to="/about">About us</Link></li>
                 <li className='p-4 hover:text-[#434344] text-white'><Link to="/service">Our services</Link></li>
                 <li className='p-4 hover:text-[#434344] text-white'><Link to="/project">Our projects</Link></li>
-                <li className='p-4 hover:text-[#434344] text-white'><Link to="/blog">Our blog</Link></li>
+                <li className='p-4  hover:text-[#434344] text-white'><Link to="/blog">Our blog</Link></li>
                 </ul>
                 <Link to="/contact">
-                <button className="bg-white text-[#C4942D] mt-[30px] ml-[75px] px-12 py-2 rounded-md text-sm">Contact us</button>
+                <button className="bg-white text-[#C4942D] mt-[10px] ml-[90px] px-12 py-2 rounded-md text-sm">Contact us</button>
                 </Link>
             </div>
         </div>

@@ -7,12 +7,12 @@ import frame4 from '../assets/Frameus4.svg'
 const Services2 = () => {
   return (
     <div className='w-full h-full bg-white'>
-        <div className='md:max-w-[1028px] max-w-[600px] m-auto w-full md:h-[1200px] h-[1850px]  '>
+        <div className='md:max-w-[1028px] max-w-[600px] m-auto w-full md:h-[1350px] h-[1850px]  '>
 
 
             <div>
                    
-                <div className=' md:space-x-12 flex md:flex-row flex-col md:justify-between  items-center md:mt-[-300px] mt-[-600px] pb-[20px]'>
+                <div className=' md:space-x-12 flex md:flex-row flex-col md:justify-between  items-center md:mt-[-300px] mt-[-600px] pb-[20px] md:pb-[40px]'>
                     
 
                     <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-custom-background md:mb-[0px] mb-[20px]  " >
@@ -37,7 +37,7 @@ const Services2 = () => {
                     </div>
 
                 </div>
-                <div className=' md:space-x-12 flex md:flex-row flex-col md:justify-between   items-center pb-[20px] '>
+                <div className=' md:space-x-12 flex md:flex-row flex-col items-center pb-[0px] md:pb-[40px] '>
                     
 
                     <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] " >
@@ -62,7 +62,7 @@ const Services2 = () => {
                     </div>
 
                 </div>
-                <div className=' md:space-x-12 flex md:flex-row flex-col md:justify-between   items-center pb-[20px] '>
+                <div className=' md:space-x-12 flex md:flex-row flex-col items-center pb-[0px] md:pb-[40px] '>
                     
 
                     <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] " >
@@ -87,7 +87,7 @@ const Services2 = () => {
                     </div>
 
                 </div>
-                <div className=' md:space-x-12 flex md:flex-row flex-col md:justify-between   items-center '>
+                <div className=' md:space-x-12 flex md:flex-row flex-col items-center md:pb-[40px] '>
                     
 
                     <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] " >

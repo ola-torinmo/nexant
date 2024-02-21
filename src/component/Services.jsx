@@ -12,8 +12,8 @@ const Services = () => {
 
             <div >
                     <p className='text-[#C4942D] 2xl:text-xl text-[11px] pb-[10px] text-center'>About us</p>
-                    <h1 className='md:text-3xl 2xl:text-5xl text-lg pb-[20px] text-center 2xl:ml-[350px] md:ml-[200px] ml-[50px] 2xl:w-[800px] md:w-[600px] w-[300px] pb-[50px]'> Architects of Excellence, Pioneering Innovation in Construction.</h1>
-                <div className=' md:space-x-12 flex md:flex-row flex-col md:justify-between  items-center 2xl:justify-around   pb-[20px] 2xl: pb-[50px] '>
+                    <h1 className='md:text-3xl 2xl:text-5xl text-lg pb-[20px] text-center 2xl:ml-[350px] md:ml-[200px] ml-[50px] 2xl:w-[800px] md:w-[600px] w-[300px] pb-[50px] 2xl:leading-normal'> Architects of Excellence, Pioneering Innovation in Construction.</h1>
+                <div className=' md:space-x-12 2xl:-space-x-[220px] flex md:flex-row flex-col items-center 2xl:justify-around md:pb-[40px] pb-[20px] 2xl:pb-[50px] '>
                     
 
                     <div class="2xl:w-[600px] md:w-[560px] w-[320px] 2xl:h-[300px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-custom-background md:mb-[0px] mb-[20px]  " >
@@ -38,7 +38,7 @@ const Services = () => {
                     </div>
 
                 </div>
-                <div className=' md:space-x-12 flex md:flex-row flex-col md:justify-between   items-center 2xl:justify-around '>
+                <div className=' md:space-x-12 2xl:-space-x-[220px] flex md:flex-row flex-col md:justify-between  items-center 2xl:justify-around '>
                     
 
                     <div class="2xl:w-[600px] md:w-[560px] w-[320px] 2xl:h-[300px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-white md:mb-[0px] mb-[20px]  " >
@@ -64,7 +64,7 @@ const Services = () => {
 
                 </div>
                 <Link to="service">
-                <button className="bg-[#C4942D] text-[#fff] 2xl:px-12 2xl:py-3 px-6 py-2 rounded-md text-sm 2xl:mt-[30px] md:mt-[70px] 2xl:ml-[700px]  md:ml-[455px] ml-[145px]">Learn More</button>
+                <button className="bg-[#C4942D] text-[#fff] 2xl:px-12 2xl:py-3 px-6 py-2 rounded-md text-sm 2xl:mt-[30px] md:mt-[70px] 2xl:ml-[690px]  md:ml-[455px] ml-[145px]">Learn More</button>
                 </Link>
             </div>
         
