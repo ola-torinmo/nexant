@@ -63,9 +63,9 @@ const Footer = () => {
 
   
     <footer className="p-4 bg-[#434344] text-white">
-        <div className="mx-auto max-w-screen-xl  ">
+        <div className="mx-auto max-w-screen-xl pl-[0px] ">
         
-            <div className="md:flex md:justify-between md:pt-[50px] pt-[20px]  md:px-[50px] px-[20px]">
+            <div className="md:flex md:justify-between md:pt-[50px] pt-[20px]  md:px-[50px] px-[20px]  ">
                 <div className='md:w-[120px] w-[80px] md:h-[100px] h-[60px] bg-[#C4942D] md:pl-[10px] pl-[115px] 2xl:ml-[-300px] xl:ml-[-15px] -skew-y-12 rounded-r -translate-x-[5rem] md:mt-[50px] opacity-50'>
 
                 </div>
@@ -136,11 +136,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='md:w-[120px] w-[80px] md:h-[100px] h-[60px] bg-[#929292]  md:mt-[100px]  -skew-y-12 rounded-l md:translate-x-[4.1rem] translate-x-[3%] md:ml-[0%] ml-[85%] md:pl-[0] pl-[25%] 2xl:mr-[-304px]  ipad-pro:mr-[-28px]  opacity-50 '>
-                    {/* <-------------------------------------------------------------------------->
-                                          ipad pro screen @lg:mr-[-3%] */
-                    }
-
+                <div className='md:w-[120px] w-[80px] md:h-[100px] h-[60px] bg-[#929292]  md:mt-[100px]  -skew-y-12 rounded-l md:translate-x-[4.1rem] translate-x-[3%] md:ml-[0%] ml-[85%] md:pl-[0] pl-[25%] 2xl:mr-[-304px]  ipad-pro:mr-[-28px]  opacity-50 overflow-hidden '>
                 </div>
             </div>
 
