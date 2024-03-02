@@ -11,13 +11,13 @@ import { Link } from 'react-router-dom';
         <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] md:m-auto md:pt-[80px] pt-[20px] md:px-0 px-[20px] ipad-prov:px-[5%]'>
             <div className='pt-[10px]  '>
                 <h1 className='2xl:w-[800px] md:w-[600px] w-[350px] 2xl:text-5xl md:text-4xl text-4xl text-left pb-[20px] leading-normal '>Engineering <span className='text-[#C4942D] 2xl:leading-[70px] leading-[35px]'>Excellence</span> And Guiding <span className='text-[#FDD575] 2xl:leading-[70px] leading-[35px]'>Projects</span> To <span className='text-[#C4942D] 2xl:leading-[70px] leading-[35px]'>Perfection</span></h1>
-                <p className='2xl:w-[800px] md:w-[500px] w-[400px] 2xl:text-lg text-base pb-[20px] leading-[25px] mb-[25px] '>As an Indigenous ISO Certified Consultancy Firm specializing in Engineering Design & Construction Supervision, we are your partners from project inception to flawless completion. </p>
+                <p className='2xl:w-[800px] md:w-[500px] w-[350px] 2xl:text-lg text-base pb-[20px] leading-[25px] mb-[25px] '>As an Indigenous ISO Certified Consultancy Firm specializing in Engineering Design & Construction Supervision, we are your partners from project inception to flawless completion. </p>
 
                 <Link to="/service">
-                <button className="bg-[#C4942D] text-[#fff] 2xl:px-9 2xl:py-3 md:px-7 px-10 py-2 mr-3 rounded-md 2xl:text-lg md:text-sm text-xs">Explore our services</button>
+                <button className="bg-[#C4942D] text-[#fff] 2xl:px-9 2xl:py-3 md:px-7 px-8 py-2 mr-2 rounded-md 2xl:text-lg md:text-sm text-xs">Explore our services</button>
                 </Link>
                 <Link to="/contact">
-                <button className="text-[#C4942D] 2xl:px-12 2xl:py-2 md:px-12 px-[55px] py-1 outline outline-offset-2 outline-2 outline-[#C4942D] xl:rounded-md rounded-md 2xl:text-lg md:text-sm text-xs">Contact us</button>
+                <button className="text-[#C4942D] 2xl:px-12 2xl:py-2 md:px-12 px-[50px] py-1 outline outline-offset-2 outline-2 outline-[#C4942D] xl:rounded-md rounded-md 2xl:text-lg md:text-sm text-xs">Contact us</button>
                 </Link>
             </div>
             
