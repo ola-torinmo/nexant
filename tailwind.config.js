@@ -9,6 +9,7 @@ export default {
       screens:{
      
         'ipad-pro': '1366px',
+        'ipad-prov': {'max':'1024px'},
       },
     },
   },

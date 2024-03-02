@@ -11,7 +11,7 @@ const Navbar = ()=>{
 
     return(
         <div className="w-full h-[70px] bg-[#C4942D1A]">
-            <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] m-auto w-full h-full flex justify-between items-center md:px-0 px-6'>
+            <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] m-auto w-full h-full flex justify-between items-center md:px-0 px-6 ipad-prov:px-[5%]'>
                 <Link to="/">
                 <img src={logo} className="" alt="nexant" />
                 </Link>

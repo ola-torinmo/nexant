@@ -4,7 +4,7 @@ import React from 'react'
  const Us2 = (props) => {
   return (
     <div className='w-full h-full bg-[#C4942D1A]'>
-        <div  className='md:max-w-[1028px] 2xl:max-w-[1536px] md:m-auto  pl-[10px] md:pl-[0px] ipad-pro:pl-[0px] 2xl:pl-[0px] w-full h-[900px] 2xl:h-[1300px] flex md:flex-row flex-col md:justify-between  items-center 2xl:pt-[00px]  md:pt-[100px] pt-[100px] '>
+        <div  className='md:max-w-[1028px] 2xl:max-w-[1536px] md:m-auto  pl-[10px] md:pl-[0px] ipad-pro:pl-[0px] 2xl:pl-[0px] w-full h-[900px] 2xl:h-[1300px] flex md:flex-row flex-col md:justify-between  items-center 2xl:pt-[00px]  md:pt-[100px] pt-[100px] ipad-prov:px-[5%]'>
           <div className='md:w-[500px] w-[350px] md:pl-[0px] pl-[0px] '>
               {/* <p className='text-[#C4942D] text-[11px] pb-[20px] '>{props.desc}</p> */}
               <h1 className=' 2xl:text-5xl  md:text-3xl text-sm pb-[20px] 2xl:w-[800px]  md:w-[600px] w-[300px] text-left  text-[#C4942D] '>{props.title}</h1>

@@ -5,7 +5,7 @@ import vision from '../assets/vision.svg'
  const Triumph = () => {
   return (
     <div className="w-full h-full bg-white  ">
-        <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] m-auto w-full h-[600px] flex md:flex-row flex-col md:justify-between 2xl:justify-between  items-center md:mt-[0px] mt-[30px] '>
+        <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] m-auto w-full h-[600px] flex md:flex-row flex-col md:justify-between 2xl:justify-between  items-center md:mt-[0px] mt-[30px] ipad-prov:px-[5%] '>
             <div className='2xl:w-[600px] md:w-[450px] w-[350px] md:h-[350px] 2xl:h-[400px] bg-[#C4942D1A] '>
                 <h1 className='w-[300px] 2xl:w-[400px] 2xl:text-5xl md:text-4xl text-xl pb-[20px] 2xl:ml-[80px] ml-[30px] 2xl:mt-[40px] mt-[30px] text-[#C4942D]'>
                 A prelude of Nexants Triumph

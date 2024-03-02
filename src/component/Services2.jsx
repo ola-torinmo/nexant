@@ -7,7 +7,7 @@ import frame4 from '../assets/Frameus4.svg'
 const Services2 = () => {
   return (
     <div className='w-full h-full bg-white'>
-        <div className='md:max-w-[1028px] max-w-[600px] m-auto w-full md:h-[1350px] h-[1850px]  '>
+        <div className='md:max-w-[1028px] max-w-[600px] m-auto w-full md:h-[1350px] h-[1850px] ipad-prov:px-[5%] '>
 
 
             <div>

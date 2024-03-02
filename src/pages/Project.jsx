@@ -27,7 +27,7 @@ function Project ()  {
     p="International bewrey plc,Lagos state"
     description="RedLine is a 37km rail route that runs from Agbado to Marina.   LASGhas been granted track access from the Federal Government for the Red Line onthe NRC standard gauge from Agbado to Ebute Metta Junction (EBJ) and Right ofWay for an independent and dedicated rail track From EBJ to Oyingbo.  " />
     <Media media={media1}/>
-    <Headline2 img={ongoing} png={png2} 
+    <Headline2 img={completed} png={png2} 
     title="Emergency Rehabilitation/Maintenance Of The Third Mainland Bridge."
     p="International bewrey plc,Lagos state"
     description="The Third MainlandBridge is the longest of the three bridges connecting Lagos Island with theLagos Mainland. It is a Trunk-A Road and measures 11.8km. The bridge starts atOworonshoki which is linked to Apapa-Oshodi expressway and Lagos-Ibadanexpressway and ends at Adeniji Adele interchange on Lagos Island. Nexantis responsible for the supervision of the construction and Health and Safetyaspect of the superstructure and substructure of the project."   />

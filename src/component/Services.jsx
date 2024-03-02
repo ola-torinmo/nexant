@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom'
 const Services = () => {
   return (
     <div className='w-full h-full bg-[#C4942D1A]'>
-        <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] m-auto w-full md:h-[900px] h-[1100px] 2xl:h-[1000px] '>
+        <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] m-auto w-full md:h-[900px] h-[1100px] 2xl:h-[1000px] ipad-prov:px-[4%]'>
 
 
             <div >
                     <p className='text-[#C4942D] 2xl:text-xl text-[11px] pb-[10px] text-center'>About us</p>
-                    <h1 className='md:text-3xl 2xl:text-5xl text-lg pb-[20px] text-center 2xl:ml-[350px] md:ml-[200px] ml-[50px] 2xl:w-[800px] md:w-[600px] w-[300px] pb-[50px] 2xl:leading-normal'> Architects of Excellence, Pioneering Innovation in Construction.</h1>
+                    <h1 className='md:text-3xl 2xl:text-5xl text-lg pb-[20px] text-center ipad-prov:ml-[180px] 2xl:ml-[350px] md:ml-[200px] ml-[50px] 2xl:w-[800px] md:w-[600px] w-[300px] pb-[50px] 2xl:leading-normal'> Architects of Excellence, Pioneering Innovation in Construction.</h1>
                 <div className=' md:space-x-12 2xl:-space-x-[220px] flex md:flex-row flex-col items-center 2xl:justify-around md:pb-[40px] pb-[20px] 2xl:pb-[50px] '>
                     
 
@@ -64,7 +64,7 @@ const Services = () => {
 
                 </div>
                 <Link to="service">
-                <button className="bg-[#C4942D] text-[#fff] 2xl:px-12 2xl:py-3 px-6 py-2 rounded-md text-sm 2xl:mt-[30px] md:mt-[70px] 2xl:ml-[690px]  md:ml-[455px] ml-[145px]">Learn More</button>
+                <button className="bg-[#C4942D] text-[#fff] 2xl:px-12 2xl:py-3 px-6 py-2 rounded-md text-sm 2xl:mt-[30px] md:mt-[70px] 2xl:ml-[690px] ipad-prov:ml-[415px]  md:ml-[455px] ml-[145px]">Learn More</button>
                 </Link>
             </div>
         
