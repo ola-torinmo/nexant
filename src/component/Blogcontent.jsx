@@ -4,7 +4,7 @@ import blogcon from '../assets/blogcon.png'
 function Blogcontent  ()  {
   return (
     <div className='w-full h-full bg-white'>
-        <div className='md:max-w-[1028px] max-w-[600px] m-auto  mt-[50px] ipad-prov:px-[5%]  '>
+        <div className='md:max-w-[1028px] max-w-[600px] m-auto  mt-[50px] ipad-prov:px-[5%] ipad-v:px-[5%] '>
             <h1 className='text-3xl text-center pb-[20px]'>Project management in the construction industry.</h1>
             <p className='text-center'>by <span className='text-[#C4942D] pr-[10px] '>Odewumi Omolara</span>| <span className='font-semibold pr-[10px]'> Media</span> <span className='text-[#8B8D95] text-xs'>-   20  Nov 2023   -   5 min read</span></p>
 

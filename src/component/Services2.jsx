@@ -7,7 +7,7 @@ import frame4 from '../assets/Frameus4.svg'
 const Services2 = () => {
   return (
     <div className='w-full h-full bg-white'>
-        <div className='md:max-w-[1028px] max-w-[600px] m-auto w-full md:h-[1350px] h-[1850px] ipad-prov:px-[5%] '>
+        <div className='md:max-w-[1028px] max-w-[600px] m-auto w-full md:h-[1350px] h-[1850px] ipad-prov:px-[5%] ipad-v:px-[3%] '>
 
 
             <div>
@@ -49,15 +49,15 @@ const Services2 = () => {
                         <p class="mb-3 font-normal md:text-[12px] text-[9px] ">Excellence in Every Detail. We ensure the Pinnacle of Precision, Employing Rigorous Standards and Unyielding Commitment to Guarantee the Delivery of Impeccable Results, Redefining the Benchmark for Unmatched Quality in Construction</p>
                         
                     </div>
-                    <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] " >
+                    <div class="md:w-[560px] ipad-v:w-[350px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] " >
                         
                         <img src={frame3} className='pb-[5px] md:w-[70px] w-[40px]'/>
                         
                         
                         <a href="#">
-                            <h5 class="mb-2 md:text-2xl text-base font-semibold tracking-tight text-[#C4942D] md:pb-[10px] pb-[px] md:w-[400px] w-[260px] ">Railway operational and consultancy services</h5>
+                            <h5 class="mb-2 md:text-2xl text-base font-semibold tracking-tight text-[#C4942D] md:pb-[10px] pb-[px] ipad-v:w-[350px] md:w-[400px] w-[260px] ">Railway operational and consultancy services</h5>
                         </a>
-                        <p class="mb-3 font-normal md:text-[12px] text-[9px]">We navigate the Tracks of Excellence, Offering a Specialized Approach that Redefines Railway Solutions. From Strategic Planning to Seamless Operations, Trust Nexant to Drive Your Railway Projects Forward with Unmatched Expertise and Industry Insight</p>
+                        <p class="mb-3 font-normal md:text-[12px] ipad-v:mt-[-3%] text-[9px]">We navigate the Tracks of Excellence, Offering a Specialized Approach that Redefines Railway Solutions. From Strategic Planning to Seamless Operations, Trust Nexant to Drive Your Railway Projects Forward with Unmatched Expertise and Industry Insight</p>
                         
                     </div>
 
@@ -74,7 +74,7 @@ const Services2 = () => {
                         <p class="mb-3 font-normal md:text-[12px] text-[9px] ">Excellence in Every Detail. We ensure the Pinnacle of Precision, Employing Rigorous Standards and Unyielding Commitment to Guarantee the Delivery of Impeccable Results, Redefining the Benchmark for Unmatched Quality in Construction</p>
                         
                     </div>
-                    <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] " >
+                    <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] ipad-v:w-[350px]" >
                         
                         <img src={frame3} className='pb-[5px] md:w-[70px] w-[40px]'/>
                         
@@ -99,7 +99,7 @@ const Services2 = () => {
                         <p class="mb-3 font-normal md:text-[12px] text-[9px] ">Excellence in Every Detail. We ensure the Pinnacle of Precision, Employing Rigorous Standards and Unyielding Commitment to Guarantee the Delivery of Impeccable Results, Redefining the Benchmark for Unmatched Quality in Construction</p>
                         
                     </div>
-                    <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] " >
+                    <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] ipad-v:w-[350px]" >
                         
                         <img src={frame3} className='pb-[5px] md:w-[70px] w-[40px]'/>
                         

@@ -35,7 +35,7 @@ const Footer = () => {
                         
                 
 
-                <div className="flex  md:space-x-6 space-x-4 justify-end md:pr-[113.5px] pr-[14px] ipad-prov:ml-[-80px] ">   
+                <div className="flex  md:space-x-6 space-x-4 justify-end md:pr-[113.5px] pr-[14px] ipad-prov:ml-[-80px] ipad-v:ml-[-140px] ipad-h:ml-[-45%] ">   
                     <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <svg className="md:w-5 w-4 md:h-5 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
                         
@@ -65,12 +65,12 @@ const Footer = () => {
     <footer className="p-4 bg-[#434344] text-white ">
         <div className="mx-auto max-w-screen-xl px-[6%] ">
         
-            <div className="md:flex md:justify-between md:pt-[50px] pt-[20px] 2xl:mx-[-200px] ipad-prov:mx-[-15px]  md:px-[50px] px-[20px]  ">
+            <div className="md:flex md:justify-between md:pt-[50px] pt-[20px] 2xl:mx-[-200px] ipad-prov:mx-[-15px] ipad-v:mx-[-25px]  md:px-[50px] px-[20px]  ">
                 {/* <div className='md:w-[120px] w-[80px] md:h-[100px] h-[60px] bg-[#C4942D] md:pl-[10px] pl-[115px] 2xl:ml-[-300px] xl:ml-[-15px] -skew-y-12 rounded-r -translate-x-[5rem] md:mt-[50px] opacity-50'>
 
                 </div> */}
                 
-                <div className="mb-6 md:mb-0 md:pr-[200px] md:ml-[-70px]">
+                <div className="mb-6 md:mb-0 md:pr-[200px] ipad-v:pr-[50px] md:ml-[-70px]">
                 <Link to="/">
                 <a className="flex items-center pb-10">
                     <img src={logo} className="mr-3" alt="Nexant Logo" />

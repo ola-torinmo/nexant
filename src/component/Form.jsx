@@ -91,7 +91,7 @@ function Form (){
                         </div>
                         <label for="remember" class="ms-2 md:text-sm text-xs font-medium text-gray-900 dark:text-gray-300">I would like to stay informed about the latest technology updates from Edoubleone.</label>
                     </div>
-                    <button type="submit" class="py-3   text-sm font-medium  text-white rounded-lg  sm:w-fit 2xl:px-[39.1%] xl:px-[39.05%] md:px-[42.5%] px-[50%] w-[100px]  focus:ring-4 focus:outline-none bg-[#C4942D]"><p className='w-[150px] md:ml-[-20px] ml-[-70px] text-white'>Send message</p></button>
+                    <button type="submit" class="py-3   text-sm font-medium  text-white rounded-lg  sm:w-fit 2xl:px-[39.1%] xl:px-[39.05%] md:px-[42.5%] ipad-prov:px-[39%] ipad-h:px-[39%] ipad-v:px-[39%] px-[50%] w-[100px]  focus:ring-4 focus:outline-none bg-[#C4942D]"><p className='w-[150px] md:ml-[-20px] ml-[-70px] text-white '>Send message</p></button>
                 </form>
         </div>
         </section>

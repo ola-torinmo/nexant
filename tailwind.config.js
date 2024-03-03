@@ -8,8 +8,10 @@ export default {
     extend: {
       screens:{
      
-        'ipad-pro': '1366px',
+        'ipad-pro': {'min':'1366px','max':'1366px'},
         'ipad-prov': {'min':'1024px','max':'1024px'},
+        'ipad-v': {'min':'810px','max':'810px'},
+        'ipad-h': {'min':'1080px','max':'1080px'},
       },
     },
   },

@@ -5,7 +5,7 @@ import vision from '../assets/vision.svg'
  const Triumph = () => {
   return (
     <div className="w-full h-full bg-white  ">
-        <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] m-auto w-full h-[600px] flex md:flex-row flex-col md:justify-between 2xl:justify-between  items-center md:mt-[0px] mt-[30px] ipad-prov:px-[5%] '>
+        <div className='md:max-w-[1028px] max-w-[600px] 2xl:max-w-[1536px] m-auto w-full h-[600px] flex md:flex-row flex-col md:justify-between 2xl:justify-between  items-center md:mt-[0px] mt-[30px] ipad-prov:px-[5%] ipad-v:px-[2%]'>
             <div className='2xl:w-[600px] md:w-[450px] w-[350px] md:h-[350px] 2xl:h-[400px] bg-[#C4942D1A] '>
                 <h1 className='w-[300px] 2xl:w-[400px] 2xl:text-5xl md:text-4xl text-xl pb-[20px] 2xl:ml-[80px] ml-[30px] 2xl:mt-[40px] mt-[30px] text-[#C4942D]'>
                 A prelude of Nexants Triumph
@@ -49,25 +49,25 @@ import vision from '../assets/vision.svg'
                 </div>
 
             </div>
-            <div className='2xl:w-[650px] md:w-[450px] w-[350px] md:h-[350px] bg-white flex md:flex-col flex-row 2xl:mt-[0px] mt-[30px]'>
+            <div className='2xl:w-[650px] md:w-[450px]  w-[350px] md:h-[350px] bg-white flex md:flex-col flex-row 2xl:mt-[0px] mt-[30px] ipad-v:mt-[-40px]'>
                 <div className='md:bg-white bg-[#C4942D] w-[170px] h-[180px] rounded-lg md:mr-[0px] mr-[10px] 2xl:mt-[-20px]'>
-                    <img src={mission} className=' md:ml-[30px] ml-[10px] md:mt-[30px] mt-[5px] w-[40px]' />
-                    <h1 className='w-[300px] md:text-2xl 2xl:text-3xl text-base 2xl:pb-[0px] pb-[5px] md:ml-[30px] ml-[10px] md:mt-[15px] mt-[5px] md:text-[#C4942D] text-white'>
+                    <img src={mission} className=' md:ml-[30px] ml-[10px] md:mt-[30px] ipad-v:pb-[-px] mt-[5px] w-[40px]' />
+                    <h1 className='w-[300px] md:text-2xl 2xl:text-3xl text-base 2xl:pb-[0px] pb-[5px] md:ml-[30px] ml-[10px] ipad-v:mt-[px]  md:mt-[15px] mt-[5px] md:text-[#C4942D] text-white'>
                     Our Mission
 
                     </h1>
-                    <p className='2xl:w-[500px] md:w-[400px] w-[155px] md:text-sm 2xl:text-base text-[10px]  md:ml-[30px] ml-[10px] md:text-[#434344] text-white'>
+                    <p className='2xl:w-[500px] md:w-[400px] w-[155px] md:text-sm 2xl:text-base text-[10px] ipad-v:w-[310px] ipad-v:mt-[-4px]  md:ml-[30px] ml-[10px] md:text-[#434344] text-white'>
                     To deliver world class infrastructure and engineering consultancy services by reinforcing our worldwide corporate alliances and upholding top-tier quality and ethical standards'
 
                     </p>
 
                 </div  >
-                <div className='md:bg-white bg-[#C4942D] w-[170px] h-[180px] rounded-lg 2xl:mt-[30px]'>
+                <div className='md:bg-white bg-[#C4942D] w-[170px] h-[180px] rounded-lg 2xl:mt-[30px] ipad-v:mt-[12px]'>
                     <img src={vision} className=' md:ml-[30px] ml-[10px] md:mt-[30px] mt-[5px] w-[40px]' />
-                    <h1 className='w-[30px] md:text-2xl 2xl:text-3xl text-base pb-[5px] md:ml-[30px] ml-[10px] md:mt-[15px] mt-[10px] md:text-[#C4942D] text-white'>
+                    <h1 className='w-[30px] md:text-2xl 2xl:text-3xl text-base pb-[5px] md:ml-[30px] ml-[10px] md:mt-[15px] mt-[10px]  md:text-[#C4942D] text-white'>
                     Vision
                     </h1>
-                    <p className='2xl:w-[500px] md:w-[400px] w-[155px] md:text-sm 2xl:text-base text-[10px] md:ml-[30px] ml-[10px] md:text-[#434344] text-white'>
+                    <p className='2xl:w-[500px] md:w-[400px] ipad-v:mt-[-4px] ipad-v:w-[310px] w-[155px] md:text-sm 2xl:text-base text-[10px] md:ml-[30px] ml-[10px] md:text-[#434344] text-white'>
                     Globally setting a tradition of excellent Consultancy services that continually exceeds customer expectations
 
                     </p>
