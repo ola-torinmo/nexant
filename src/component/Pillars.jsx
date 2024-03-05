@@ -22,7 +22,7 @@ export default function Pillars  ()  {
                 </div>
                 <img className=" md:w-[80%] w-[70%] ml-[20%] ipad-v:ml-[25%]" src={pillar}/>
             </div>
-            <p className="md:w-[533px] w-[370px] md:text-lg text-base font-semibold text-center md:ml-[30%] ipad-v:ml-[17%] ipad-v:pb-[100px] pt-[30px] pb-8 md:pl-0 pl-5 leading-relaxed">. . .delivering valued engineered infrastructure projects.</p>
+            <p className="md:w-[533px] w-[370px] xs:w-[350px] md:text-lg text-base font-semibold text-center md:ml-[30%] ipad-v:ml-[17%] ipad-v:pb-[100px] pt-[30px] pb-8 md:pl-0 pl-5 leading-relaxed">. . .delivering valued engineered infrastructure projects.</p>
 
         </div>
  );
