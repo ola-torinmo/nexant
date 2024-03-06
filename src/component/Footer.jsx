@@ -94,7 +94,9 @@ const Footer = () => {
                         <h2 className="md:mb-[70px] mb-[20px] text-sm font-semibold text-gray-900 uppercase text-white">Company</h2>
                         <ul className="text-white">
                             <li className="mb-4 text-white">
-                                <a href="https://flowbite.com" className="hover:underline">Home</a>
+                                <Link to="/">
+                                <a href="" className="hover:underline">Home</a>
+                                </Link>
                             </li>
                             <li className="mb-4 text-white" >
                                 <a href="#" className="hover:underline">About Us</a>
@@ -111,7 +113,7 @@ const Footer = () => {
                                 <a href="#" className="hover:underline ">Oil & Gas</a>
                             </li>
                             <li className="mb-4 text-white">
-                                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Road projects</a>
+                                <a href="#" className="hover:underline">Road projects</a>
                             </li>
                             <li className="mb-4 text-white">
                                 <a href="#" className="hover:underline ">Railway projects</a>
