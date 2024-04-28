@@ -6,6 +6,7 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Service from './pages/Service';
 import Project from './pages/Project';
+import QA from './pages/QA';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path='/project' element={<Project />} />
             <Route path='/blog' element={<Blog />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/qa' element={<QA />} />
             
         </Routes>
       </Router>

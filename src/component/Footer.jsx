@@ -133,7 +133,7 @@ const Footer = () => {
                                 <a href="#" className="hover:underline">Website: www.nexantconsult.com</a>
                             </li>
                             <li className="mb-4 text-white">
-                                <a href="#" className="hover:underline">Telephone: 01-2956505+234-907-758-7014</a>
+                                <a href="#" className="hover:underline">Telephone: +234-907-758-7014</a>
                             </li>
                         </ul>
                     </div>
