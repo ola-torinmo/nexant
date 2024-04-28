@@ -5,7 +5,7 @@ import React from 'react'
 function Headline2 (props) {
   return (
     <div className=''>
-        <div className='2xl:max-w-[1536px] md:max-w-[1028px] max-w-[600px] m-auto w-full h-[900px] flex md:flex-row flex-col md:justify-between  items-center  md:pt-[0px] pt-[50px] md:mt-[-160px] mt-[30px] ipad-prov:px-[7%] ipad-v:px-[5%]'>
+        <div className='2xl:max-w-[1536px] md:max-w-[1028px] max-w-[600px] m-auto w-full h-[900px] flex md:flex-row flex-col md:justify-between  items-center  md:pt-[0px] pt-[50px] md:mt-[-160px] mt-[20px] ipad-prov:px-[7%] ipad-v:px-[5%]'>
             <div> 
                  <div className='flex'>
                     <img src={props.img} alt="" className='w-12 h-6 mt-[40px]' />
