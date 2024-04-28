@@ -5,7 +5,7 @@ export default function Jumbotron(props) {
 
   
   return (
-    <div className='jumbo'>
+    <div className='jumbo pb-[10%]'>
         
         <img src={props.img} fluid 
         className='image w-full md:h-[350px] h-[200px] '   
