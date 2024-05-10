@@ -2,6 +2,7 @@ import React from 'react'
 import frame1 from '../assets/Frameus1.svg'
 import frame2 from '../assets/Frameus2.svg'
 import frame3 from '../assets/Frameus3.svg'
+import frame5 from '../assets/Frameus5.svg'
 import { Link } from 'react-router-dom'
 
 const Services = () => {
@@ -42,7 +43,7 @@ const Services = () => {
                     
 
                     <div class="2xl:w-[600px] ipad-v:w-[4000px]  md:w-[560px] w-[320px] 2xl:h-[300px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-white md:mb-[0px] mb-[20px]  " >
-                        <img src={frame3} className='2xl:pb-[15px] pb-[10px] md:w-[70px] w-[40px]'/>
+                        <img src={frame5} className='2xl:pb-[15px] pb-[10px] md:w-[70px] md:h-[85px] w-[40px]'/>
                         
                         <a href="#">
                             <h1 class="mb-2 2xl:text-3xl md:text-2xl text-base font-semibold tracking-tight text-[#C4942D] md:pb-[10px] pb-[1px] ipad-v:pb-[1px] ">Quality Assurance and control</h1>
