@@ -7,6 +7,9 @@ import Contact from './pages/Contact';
 import Service from './pages/Service';
 import Project from './pages/Project';
 import QA from './pages/QA';
+import JobPage from './pages/JobPage';
+import JobDetailsPage from './pages/JobDetailsPage';
+import JobApplicationForm from './pages/JobApplicationForm';
 
 function App() {
 
@@ -21,6 +24,9 @@ function App() {
             <Route path='/blog' element={<Blog />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/qa' element={<QA />} />
+            <Route path='/jobpage' element={<JobPage />} />
+            <Route path="/careers/:jobId" element={<JobDetailsPage />} />
+            <Route path="/careers/:jobId/apply" element={<JobApplicationForm />} />
             
         </Routes>
       </Router>
