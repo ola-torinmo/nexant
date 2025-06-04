@@ -31,20 +31,26 @@ const JobDetailsPage = () => {
             location: "Remote",
             type: "Full-time",
             experience: "2-4 Years",
-            about: "Office ipsum you must be muted. Board old shelf-ware these they picture need like happenings. Talk globalize now and pulling beforehand when. Open unpack cost obviously office tiger didn't us. Highlights cause club plane incompetent. Info domains on red-flag ipsum here. New live beforehand paradigm cadence about. Needed previous involved to bay hits define growth supervisor. Discussions contribution teeth run please.",
+            about: "We are looking for a proactive and technically skilled Digital Operations & IT Support Specialist to manage key aspects of our IT infrastructure, website performance, and social media presence. This role combines technical troubleshooting with content execution and digital brand maintenance, making it ideal for someone who thrives at the intersection of tech and marketing.",
             qualifications: [
-              "Office ipsum you must be muted. Board old shelf-ware these they picture.",
-              "Office ipsum you must be muted. Board old shelf-ware these they picture.",
-              "Office ipsum you must be muted. Board old shelf-ware these they picture.",
-              "Office ipsum you must be muted. Board old shelf-ware these they picture.",
-              "Office ipsum you must be muted. Board old shelf-ware these they picture."
+              "IT Support.",
+              "Website Updates.",
+              "Social Media Page Updates.",
+              // "Office ipsum you must be muted. Board old shelf-ware these they picture.",
+              // "Office ipsum you must be muted. Board old shelf-ware these they picture."
             ],
             responsibilities: [
-              "Office ipsum you must be muted. Board old shelf-ware these they picture.",
-              "Office ipsum you must be muted. Board old shelf-ware these they picture.",
-              "Office ipsum you must be muted. Board old shelf-ware these they picture.",
-              "Office ipsum you must be muted. Board old shelf-ware these they picture.",
-              "Office ipsum you must be muted. Board old shelf-ware these they picture."
+              "Provide technical support for hardware, software, and cloud systems (Google Workspace, Zoom, Microsoft 365, etc.).",
+              "Maintain and update basic internal tech documentation.",
+              "Coordinate with third-party IT vendors when needed.",
+              "Regularly update website content (text, images, blog posts, banners, team bios).",
+              "Implement minor design/layout edits using CMS tools (e.g., WordPress, Webflow, Wix).",
+              "Ensure mobile responsiveness and optimize site performance.",
+              "Manage plugin updates, basic SEO checks, and uptime monitoring.",
+              "Publish scheduled content to Instagram, Facebook, LinkedIn, or TikTok platforms.",
+              "Update profile bios, pinned content, and highlight new campaigns or services.",
+              "Monitor inboxes/messages and flag any inquiries to the relevant team member",
+              "Track engagement or flag platform changes that may affect reach.",
             ],
             benefits: {
               company: "Office ipsum you must be muted. Board old shelf-ware these they picture.",
