@@ -23,3 +23,6 @@ import Us3 from './Us3'
 
 
 export{Navbar,Bar,Blogcontent,Blogsection,Contactlink,Footer,Form,Headline,Headline2,Hero,Info,Jumbotron,Media,Pillars,Projects,Services,Services2,Subscribe,Triumph,Us,Us2,Us3}
+
+// this pages exports all the componenets from the component folder so that you can import them in the pages folder or any other folder that you want to use them
+// this is a good way to structure your code so that you can easily import the components in the pages folder or any other folder that you want to use them
