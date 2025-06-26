@@ -127,7 +127,7 @@ const Footer = () => {
                         <h2 className="md:mb-[70px] mb-[20px] text-sm font-semibold text-gray-900 uppercase text-white">Contact Us</h2>
                         <ul className="text-white">
                             <li className="mb-4 text-white">
-                                <a href="#" className="hover:underline">Email: info@nexantconsult.com</a>
+                                <a href="#" className="hover:underline">Email: info@nexantgroup.com</a>
                             </li>
                             <li className="mb-4 text-white">
                                 <a href="#" className="hover:underline">Website: www.nexantconsult.com</a>
