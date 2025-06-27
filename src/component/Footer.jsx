@@ -152,7 +152,7 @@ const Footer = () => {
     <section className="p-4 bg-[#4A3C34]" >
         <div className=" mx-auto max-w-screen-xl place-items-center  text-center justify-center ">
                 <span className="md:text-sm text-xs text-white text-center ">Copyright @ 2023:  
-                <a href="#" className="hover:underline text-[#C4942D]">    www.nexantconsult.com</a>. All Rights Reserved.
+                <a href="#" className="hover:underline text-[#C4942D]">www.nexantconsult.com</a>. All Rights Reserved.
                 </span>
                 
         </div>
