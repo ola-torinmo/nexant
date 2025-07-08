@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import jsPDF from "jspdf";
-import { FiDownload } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
@@ -11,64 +9,159 @@ const JobDetailsPage = () => {
   const [job, setJob] = useState(null);
 
   useEffect(() => {
-    console.log("Job ID from URL:", jobId);
     const normalizedJobId = jobId?.toLowerCase().replace(/\s+/g, "-");
 
     const jobMap = {
-      "product-designer": {
-        title: "Product Designer",
+      "head-of-engineering-(design)": {
+        title: "Head of Engineering (Design)",
         about:
-          "We are looking for a proactive and technically skilled Digital Operations & IT Support Specialist to manage key aspects of our IT infrastructure, website performance, and social media presence. This role combines technical troubleshooting with content execution and digital brand maintenance, making it ideal for someone who thrives at the intersection of tech and marketing.",
+          "Oversees the architectural and engineering design phase of projects, ensuring technical soundness and innovation. Lead design team across multiple projects; Approve technical drawings and designs; Coordinate with clients, consultants, and regulatory bodies; Ensure compliance with design codes and safety standards.",
         qualifications: [
-          "IT Support",
-        ],
-        responsibilities: [
-          "Provide technical support for hardware, software, and cloud systems (Google Workspace, Zoom, Microsoft 365, etc.)",
-          "Troubleshoot and resolve email setup, password issues, and internet/network glitches",
-          "Maintain and update basic internal tech documentation",
-          "Coordinate with third-party IT vendors when needed",
+          "Minimum Bachelor’s  degree in Civil Engineering",
+          "Strong leadership and CAD/BIM skills",
         ],
       },
-      "engineering-manager": {
-        title: "Engineering Manager",
+      "head-of-engineering-(supervision)": {
+        title: "Head of Engineering (Supervision)",
         about:
-          "We are looking for a proactive and technically skilled Digital Operations & IT Support Specialist to manage key aspects of our IT infrastructure, website performance, and social media presence. This role combines technical troubleshooting with content execution and digital brand maintenance, making it ideal for someone who thrives at the intersection of tech and marketing.",
+          "Leads field supervision and quality control efforts across engineering projects, ensuring compliance and timely delivery.Manage site engineers and supervisors; Review project schedules and execution plans; Ensure site works meet specs and regulations; Liaise between site and office teams",
         qualifications: [
-          "Website Updates",
-        ],
-        responsibilities: [
-          "Regularly update website content (text, images, blog posts, banners, team bios)",
-          "Implement minor design/layout edits using CMS tools (e.g., WordPress, Webflow, Wix)",
-          "Ensure mobile responsiveness and optimize site performance",
-          "Manage plugin updates, basic SEO checks, and uptime monitoring",
+          "Minimum Bachelor’s degree in Civil Engineering or related field",
+          "Proven leadership and communication skills",
         ],
       },
-      "customer-success-manager": {
-        title: "Customer Success Manager",
+      "senior-construction-manager": {
+        title: "Senior Construction Manager",
         about:
-          "We are looking for a proactive and technically skilled Digital Operations & IT Support Specialist to manage key aspects of our IT infrastructure, website performance, and social media presence. This role combines technical troubleshooting with content execution and digital brand maintenance, making it ideal for someone who thrives at the intersection of tech and marketing.",
+          "Manages large-scale construction operations from initiation to completion, focusing on efficiency, cost, and safety.Lead daily construction activities; Allocate resources and manage subcontractors; Monitor budgets, timelines, and risks; Ensure HSE compliance on site",
         qualifications: [
-          "Social Media Page Updates",
-        ],
-        responsibilities: [
-          "Publish scheduled content to Instagram, Facebook, LinkedIn, or TikTok platforms",
-          "Update profile bios, pinned content, and highlight new campaigns or services",
-          "Monitor inboxes/messages and flag any inquiries to the relevant team member",
-          "Track engagement or flag platform changes that may affect reach",
+          "Minimum Bachelor’s degree in Civil Engineering or Construction Management",
         ],
       },
+      "senior-qaqc-lead": {
+        title: "Senior QAQC Lead",
+        about:
+          "Ensures quality assurance and control standards are implemented throughout project execution.Develop QA/QC plans and inspection procedures; Conduct audits and site inspections; Approve materials and testing reports; Train teams on quality procedures",
+        qualifications: [
+          "Minimum Bachelor’s degree in Engineering or Construction Quality Management",
+        ],
+      },
+      "senior-design-manager": {
+        title: "Senior Design Manager",
+        about:
+          "Directs design development and coordination across multidisciplinary teams for major infrastructure or building projects.Manage multi-discipline design deliverables; Lead design reviews and client meetings; Resolve conflicts between architectural, MEP, and structural drawings; Ensure timely design submissions",
+        qualifications: [
+          "Minimum Bachelor’s degree Degree in Architecture or Engineering",
+        ],
+      },
+      "civil-engineer": {
+        title: "Civil Engineer",
+        about:
+          "Designs, plans, and supervises the construction of infrastructure such as roads, bridges, and buildings.Prepare drawings, calculations, and specs; Oversee site implementation; Perform surveys and feasibility analysis; Coordinate with contractors and clients",
+        qualifications: [
+          "Minimum Bachelor’s degree in Civil Engineering",
+        ],
+      },
+      "mechanical-engineer": {
+        title: "Mechanical Engineer",
+        about:
+          "Handles the design, installation, and maintenance of mechanical systems in building and industrial projects.Develop mechanical system designs; Perform energy/load calculations; Inspect installation of mechanical works; Coordinate with electrical and civil teams",
+        qualifications: [
+          "Minimum Bachelor’s degree in Mechanical Engineering",
+        ],
+      },
+      "electrical-engineer": {
+        title: "Electrical Engineer",
+        about:
+          "Responsible for designing and supervising electrical systems for residential, commercial, or industrial projects.Develop electrical layouts and power distribution; Inspect electrical works on site; Ensure compliance with safety codes; Handle lighting, power, and fire alarm systems",
+        qualifications: [
+          "Minimum Bachelor’s degree in Electrical or Electronics Engineering",
+        ],
+      },
+      "transport-planner": {
+        title: "Transport Planner",
+        about:
+          "Plans and develops transportation systems and logistics infrastructure to optimize traffic and mobility.Conduct transport impact assessments; Develop traffic management plans; Collaborate with civil engineers and local authorities; Recommend sustainable transport solutions",
+        qualifications: [
+          "BConduct transport impact assessments; Develop traffic management plans; Collaborate with civil engineers and local authorities; Recommend sustainable transport solutions",
+        ],
+      },
+      "qmr-representative": {
+        title: "QMR Representative",
+        about:
+          "Represents the Quality Management System (QMS) leadership role — ensuring ISO compliance and continual improvement.Monitor QMS implementation across projects; Liaise with certifying bodies; Ensure documentation and compliance; Organize internal audits",
+        qualifications: [
+          "Minimum QMS lead auditor certification (e.g., ISO 9001)",
+        ],
+      },
+      "engineering-quality-manager": {
+        title: "Engineering Quality Manager",
+        about:
+          "Oversees and enforces quality standards across engineering teams and processes.Lead audits and quality reviews; Create inspection and test plans; Monitor KPIs for quality performance; Collaborate with QAQC leads and site managers",
+        qualifications: [
+          "Minimum Degree in Engineering or Quality Assurance",
+        ],
+      },
+      "project-planner": {
+        title: "Project Planner",
+        about:
+          "Develops detailed project schedules and plans to ensure timely delivery, resource allocation, and budget control. Create and update project schedules; Monitor progress and highlight delays; Collaborate with engineers and managers to align planning; Report KPIs to stakeholders.",
+        qualifications: [
+          "Minimum Bachelor’s in Engineering ",
+        ],
+      },
+      "director-of-operations": {
+        title: "Senior Construction Manager",
+        about:
+          "Oversees company-wide operations, ensuring projects and departments run efficiently while meeting company goals. Supervise departmental heads; Define operational strategy and KPIs; Monitor financial performance; Drive operational excellence and continuous improvement.",
+        qualifications: [
+          "Minimum Bachelor’s in Operations Management",
+        ],
+      },
+      "business-development": {
+        title: "Business Development",
+        about:
+          "Focuses on expanding the company’s market presence by identifying and securing new business opportunities. Identify new leads and partners; Develop proposals and presentations; Maintain client relationships; Track market trends and competitor activity.",
+        qualifications: [
+          "Minimum Bachelor’s degree in Business",
+        ],
+      },
+      "personal-assistant": {
+        title: "Personal Assistant",
+        about:
+          "Provides administrative support to senior executives to ensure smooth day-to-day operations. Manage schedules and appointments; Draft emails and reports; Arrange travel and meetings; Handle confidential tasks with discretion.",
+        qualifications: [
+          "Minimum HND/Bachelor’s in Business Administration ",
+        ],
+      },
+      "admin-support": {
+        title: "Admin Support",
+        about:
+          "Supports the office by managing documentation, coordinating tasks, and ensuring smooth administrative workflows. Organize and maintain records; Support HR and finance teams; Prepare reports and documents; Handle phone calls and correspondence.",
+        qualifications: [
+          "Minimum OND/HND or Bachelor's degree",
+        ],
+      },
+      "drivers": {
+        title: "Drivers",
+        about:
+          "Responsible for transporting staff, equipment, and materials safely and efficiently. Safely transport personnel and goods; Maintain vehicle cleanliness and performance; Follow schedules and assigned routes; Report any mechanical issues.",
+        qualifications: [
+          "Valid driver’s license and clean driving record",
+          "Knowledge of traffic laws"
+        ],
+      },
+      
     };
 
     const data = jobMap[normalizedJobId];
 
     if (data) {
-      const jobData = {
+      setJob({
         id: normalizedJobId,
         ...data,
-        category: "Design",
-        location: "Remote",
+        location: "On site",
         type: "Full-time",
-        experience: "2-4 Years",
         attachments: [
           {
             id: 1,
@@ -87,31 +180,20 @@ const JobDetailsPage = () => {
             category: "Full-time",
           },
         ],
-      };
-
-      setJob(jobData);
+      });
     } else {
       setJob({
         id: normalizedJobId,
         title: "Unknown Role",
         about: "No job description available.",
         qualifications: [],
-        responsibilities: [],
         attachments: [],
         category: "Design",
-        location: "Remote",
+        location: "On site",
         type: "Full-time",
-        experience: "N/A",
       });
     }
   }, [jobId]);
-
-  const handleDownloadPDF = (title, content) => {
-    const doc = new jsPDF();
-    const formattedContent = Array.isArray(content) ? content.join("\n\n") : content;
-    doc.text(formattedContent, 10, 10, { maxWidth: 180 });
-    doc.save(title);
-  };
 
   if (!job) {
     return <div className="min-h-screen bg-white text-gray-900 p-8">Loading...</div>;
@@ -127,10 +209,9 @@ const JobDetailsPage = () => {
             <div>
               <h1 className="text-3xl md:text-4xl font-bold">{job.title}</h1>
               <div className="flex flex-wrap gap-2 mt-3">
-                <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">{job.category}</span>
+                {/* <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">{job.category}</span> */}
                 <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">{job.location}</span>
                 <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">{job.type}</span>
-                <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">{job.experience}</span>
               </div>
             </div>
 
@@ -140,53 +221,20 @@ const JobDetailsPage = () => {
           </div>
         </motion.div>
 
+        {/* About the Job (merged responsibilities) */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-semibold">About this role</h2>
+          <h2 className="text-2xl font-semibold">About the Job</h2>
           <p className="leading-relaxed">{job.about}</p>
         </section>
 
+        {/* Qualification */}
         <section className="space-y-6">
           <h2 className="text-2xl font-semibold">Qualification</h2>
           <ul className="list-disc list-inside space-y-2">
-            {job.qualifications.map((item, i) => (
-              <li key={i}>{item}</li>
+            {job.qualifications.map((item, index) => (
+              <li key={index}>{item}</li>
             ))}
           </ul>
-        </section>
-
-        <section className="space-y-6">
-          <h2 className="text-2xl font-semibold">Responsibility</h2>
-          <ul className="list-disc list-inside space-y-2">
-            {job.responsibilities.map((item, i) => (
-              <li key={i}>{item}</li>
-            ))}
-          </ul>
-        </section>
-
-        <section className="space-y-6">
-          <h2 className="text-2xl font-semibold">Attachments</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            {job.attachments.map((file) => (
-              <div key={file.id} className="border rounded-lg p-4 shadow-sm bg-white">
-                <p className="font-medium text-lg">{file.title}</p>
-                <p className="text-sm text-gray-600">{file.fileName}</p>
-                <div className="mt-2 flex items-center justify-between">
-                  <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">{file.category}</span>
-                  <button
-                    onClick={() =>
-                      handleDownloadPDF(
-                        file.fileName,
-                        file.title === "Job Requirements" ? job.qualifications : job.responsibilities
-                      )
-                    }
-                    className="text-yellow-600 hover:text-yellow-500"
-                  >
-                    <FiDownload className="w-5 h-5" />
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
         </section>
 
         <div className="text-center">

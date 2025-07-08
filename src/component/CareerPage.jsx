@@ -10,41 +10,151 @@ const CareerPage = () => {
 
   const jobCategories = [
     'View all',
-    'Development',
-    'Design',
-    'Marketing',
-    'Customer Service',
-    'Operations',
-    'Finance',
-    'Management'
+    'Engineering & Construction',
+    'Project Management & Planning',
+    'Business & Administration',
+    ' Logistics & Support',
+    
   ];
 
   // Sample data (will be replaced with API data)
   const sampleJobs = [
     {
-      id:'product-designer' ,
-      category: 'Design',
-      title: 'Product Designer',
-      remote: true,
+      id:'Head of Engineering (Design)' ,
+      category: 'Engineering & Construction',
+      title: 'Head of Engineering (Design)',
+      OnSite: true,
       fullTime: true,
       experience: '2-4 Years'
     },
     {
-      id:'Engineering Manager',
-      category: 'Development',
-      title: 'Engineering Manager',
-      remote: true,
+      id:'Head of Engineering (Supervision)',
+      category: 'Engineering & Construction',
+      title: 'Head of Engineering (Supervision)',
+      OnSite: true,
       fullTime: true,
       experience: '3-5 Years'
     },
     {
-      id: 'Customer Success Manager',
-      category: 'Customer Service',
-      title: 'Customer Success Manager',
-      remote: true,
+      id: 'Senior Construction Manager',
+      category: 'Engineering & Construction',
+      title: 'Senior Construction Manager',
+       OnSite: true,
       fullTime: true,
       experience: '1-3 Years'
-    }
+    },
+    {
+      id: 'Senior Design Manager',
+      category: 'Engineering & Construction',
+      title: 'Senior Design Manager',
+      OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Senior QAQC Lead',
+      category: 'Engineering & Construction',
+      title: 'Senior QAQC Lead',
+      OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Civil Engineer',
+      category:'Engineering & Construction',
+      title: 'Civil Engineer',
+       OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Mechanical Engineer',
+      category: 'Engineering & Construction',
+      title: 'Mechanical Engineer',
+       OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Electrical Engineer',
+      category: 'Engineering & Construction',
+      title: 'Electrical Engineer',
+       OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Transport Planner',
+      category: 'Engineering & Construction',
+      title: 'Transport Planner',
+       OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Engineering Quality Manager',
+      category: 'Engineering & Construction',
+      title: 'Engineering Quality Manager',
+       OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'QMR Rep',
+      category: 'Engineering & Construction',
+      title: 'QMR Rep',
+      OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Project Planner',
+      category: 'Project Management & Planning',
+      title: 'Project Planner',
+      OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Director of Operations',
+      category: 'Project Management & Planning',
+      title: 'Director of Operations',
+       OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Business Development',
+      category: 'Business & Administration',
+      title: 'Business Development',
+       OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Personal Assistant',
+      category: 'Business & Administration',
+      title: 'Personal Assistant',
+       OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Admin Support',
+      category: 'Business & Administration',
+      title: 'Admin Support',
+      OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
+    {
+      id: 'Drivers',
+      category: ' Logistics & Support',
+      title: 'Drivers',
+      OnSite: true,
+      fullTime: true,
+      experience: '1-3 Years'
+    },
   ];
 
   // Fetch job listings from backend
@@ -132,12 +242,12 @@ const CareerPage = () => {
                 <h2 className="text-xl font-semibold text-gray-800 mb-4">{job.title}</h2>
                 
                 <div className="flex items-center space-x-6">
-                  {job.remote && (
+                  {job.OnSite && (
                     <div className="flex items-center space-x-2 text-gray-600">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                       </svg>
-                      <span>Remote</span>
+                      <span>On site</span>
                     </div>
                   )}
                   
@@ -150,7 +260,7 @@ const CareerPage = () => {
                     </div>
                   )}
                   
-                  {job.experience && (
+                  {/* {job.experience && (
                     <div className="flex items-center space-x-2 text-gray-600">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
@@ -158,7 +268,7 @@ const CareerPage = () => {
                       </svg>
                       <span>{job.experience}</span>
                     </div>
-                  )}
+                  )} */}
                 </div>
                 
                 <div className="absolute right-6 top-1/2 -translate-y-1/2">
