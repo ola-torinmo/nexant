@@ -216,7 +216,7 @@ const JobDetailsPage = () => {
             </div>
 
             <button className="bg-[#C4942D] hover:bg-amber-700 text-white px-6 py-3 rounded-md transition-colors">
-              <Link to={`/careers/${job.id}/apply`}>Apply Now</Link>
+              <Link to={`/careers/${job.id}/apply`}>Get In Touch</Link>
             </button>
           </div>
         </motion.div>
@@ -239,7 +239,7 @@ const JobDetailsPage = () => {
 
         <div className="text-center">
           <button className="bg-[#C4942D] hover:bg-amber-700 text-white px-6 py-3 rounded-md transition-colors">
-            <Link to={`/careers/${job.id}/apply`}>Apply Now</Link>
+            <Link to={`/careers/${job.id}/apply`}>Get In Touch</Link>
           </button>
         </div>
       </main>
