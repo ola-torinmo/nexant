@@ -3,10 +3,6 @@ import frame1 from '../assets/Frameus1.svg'
 import frame2 from '../assets/Frameus2.svg'
 import frame3 from '../assets/Frameus3.svg'
 import frame4 from '../assets/Frameus4.svg'
-import frame5 from '../assets/Frameus5.svg'
-import frame6 from '../assets/Frameus6.svg'
-import frame7 from '../assets/Frameus7.svg'
-import frame8 from '../assets/Frameus8.svg'
 
 const Services2 = () => {
   return (
@@ -45,7 +41,7 @@ const Services2 = () => {
                     
 
                     <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] " >
-                        <img src={frame5} className='pb-[10px] md:w-[70px] md:h-[88px] w-[40px]'/>
+                        <img src={frame3} className='pb-[10px] md:w-[70px] w-[40px]'/>
                         
                         <a href="#">
                             <h5 class="mb-2 md:text-2xl text-base font-semibold tracking-tight text-[#C4942D] md:pb-[10px] pb-[1px] ">Quality Assurance and control</h5>
@@ -80,7 +76,7 @@ const Services2 = () => {
                     </div>
                     <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] ipad-v:w-[350px]" >
                         
-                        <img src={frame6} className='pb-[5px] md:w-[70px] md:h-[80px] w-[40px]'/>
+                        <img src={frame3} className='pb-[5px] md:w-[70px] w-[40px]'/>
                         
                         
                         <a href="#">
@@ -95,17 +91,17 @@ const Services2 = () => {
                     
 
                     <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] " >
-                        <img src={frame7} className='pb-[10px] md:w-[70px] md:h-[80px] w-[40px]'/>
+                        <img src={frame3} className='pb-[10px] md:w-[70px] w-[40px]'/>
                         
                         <a href="#">
-                            <h5 class="mb-2 md:text-2xl text-base font-semibold tracking-tight text-[#C4942D] md:pb-[10px] pb-[1px] ">Risk Management</h5>
+                            <h5 class="mb-2 md:text-2xl text-base font-semibold tracking-tight text-[#C4942D] md:pb-[10px] pb-[1px] ">Oil and Gas</h5>
                         </a>
                         <p class="mb-3 font-normal md:text-[12px] text-[9px] ">Excellence in Every Detail. We ensure the Pinnacle of Precision, Employing Rigorous Standards and Unyielding Commitment to Guarantee the Delivery of Impeccable Results, Redefining the Benchmark for Unmatched Quality in Construction</p>
                         
                     </div>
                     <div class="md:w-[560px] w-[320px] md:h-[270px] h-[200px]  p-6 border border-gray-200 rounded-lg bg-[#C4942D1A] md:mb-[0px] mb-[20px] ipad-v:w-[350px]" >
                         
-                        <img src={frame8} className='pb-[5px] md:w-[70px] md:h-[80px] w-[40px]'/>
+                        <img src={frame3} className='pb-[5px] md:w-[70px] w-[40px]'/>
                         
                         
                         <a href="#">
