@@ -22,7 +22,7 @@ const Navbar = ()=>{
                     <li><Link to="/project">Projects</Link></li>
                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/qa">Quality Policy</Link></li>
-                    <li><Link to="/jobpage">Career Page</Link></li>
+                    <li><Link to="/jobpage">Career</Link></li>
                 </ul>
                 <Link to="/contact">
                     <button className="bg-[#C4942D] text-[#fff] px-6 py-2 rounded-md text-sm">Contact us</button>
@@ -40,7 +40,7 @@ const Navbar = ()=>{
                 <li className='p-4 hover:text-[#434344] text-white'><Link to="/project">Projects</Link></li>
                 <li className='p-4  hover:text-[#434344] text-white'><Link to="/blog">Blog</Link></li>
                 <li className='p-4  hover:text-[#434344] text-white ml-[-7%] '><Link to="/qa">Quality Policy</Link></li>
-                <li className='p-4  hover:text-[#434344] text-white ml-[-7%] '><Link to="/jobpage">Career Page</Link></li>
+                <li className='p-4  hover:text-[#434344] text-white ml-[-7%] '><Link to="/jobpage">Career</Link></li>
                 </ul>
                 <Link to="/contact">
                 <button className="bg-white text-[#C4942D] mt-[10px] ml-[28%] px-12 py-2 rounded-md text-sm">Contact us</button>
