@@ -25,7 +25,7 @@ function App() {
             <Route path='/blog' element={<Blog />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/qa' element={<QA />} />
-            <Route path='/jobpage' element={<Career />} />
+            <Route path='/jobpage' element={<Career/>} />
             <Route path="/careers/:jobId" element={<JobDetailsPage />} />
             <Route path="/careers/:jobId/apply" element={<JobApplicationForm />} />
         </Routes>
