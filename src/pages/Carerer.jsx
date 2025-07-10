@@ -3,7 +3,7 @@ import '../App.css'
 import Navbar from '../component/Navbar'
 import Footer from '../component/Footer'
 import CareerPage from '../component/CareerPage'
-function JobPage  () {
+function Career  () {
   return (
     <>
     <Navbar/>
@@ -13,4 +13,4 @@ function JobPage  () {
   )
 }
 
-export default JobPage
+export default Career
