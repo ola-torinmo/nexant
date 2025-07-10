@@ -22,7 +22,7 @@ const Navbar = ()=>{
                     <li><Link to="/project">Projects</Link></li>
                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/qa">Quality Policy</Link></li>
-                    <li><Link to="/jobpage">Career</Link></li>
+                    <li><Link to="/career">Career</Link></li>
                 </ul>
                 <Link to="/contact">
                     <button className="bg-[#C4942D] text-[#fff] px-6 py-2 rounded-md text-sm">Contact us</button>
