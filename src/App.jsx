@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 import Service from './pages/Service';
 import Project from './pages/Project';
 import QA from './pages/QA';
-import Caree from './pages/Career';
+import Career from './pages/Career';
 import JobDetailsPage from './pages/JobDetailsPage';
 import JobApplicationForm from './pages/JobApplicationForm';
 // import Maintenance from './pages/Maintenance'
@@ -25,7 +25,7 @@ function App() {
             <Route path='/blog' element={<Blog />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/qa' element={<QA />} />
-            <Route path='/jobpage' element={<Caree/>} />
+            <Route path='/career' element={<Career/>} />
             <Route path="/careers/:jobId" element={<JobDetailsPage />} />
             <Route path="/careers/:jobId/apply" element={<JobApplicationForm />} />
         </Routes>
