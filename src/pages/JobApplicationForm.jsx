@@ -22,7 +22,7 @@ const JobApplicationContact = () => {
                 href="mailto:jobrecruitingfirm@gmail.com"
                 className="text-blue-600 underline hover:text-blue-800"
               >
-                info@nexxantgroup.com
+                info@nexantgroup.com
               </a>
             </p>
 
