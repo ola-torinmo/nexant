@@ -19,7 +19,7 @@ const JobApplicationContact = () => {
             <p className="text-gray-700">
               <strong>Email:</strong>{' '}
               <a
-                href="mailto:jobrecruitingfirm@gmail.com"
+                href="mailto:info@nexantgroup.com"
                 className="text-blue-600 underline hover:text-blue-800"
               >
                 info@nexantgroup.com
