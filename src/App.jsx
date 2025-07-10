@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 import Service from './pages/Service';
 import Project from './pages/Project';
 import QA from './pages/QA';
-import JobPage from './pages/JobPage';
+import JobPage from './pages/Career';
 import JobDetailsPage from './pages/JobDetailsPage';
 import JobApplicationForm from './pages/JobApplicationForm';
 // import Maintenance from './pages/Maintenance'
