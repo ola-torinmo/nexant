@@ -136,7 +136,10 @@ const Footer = () => {
                                 <a href="#" className="hover:underline">Telephone: +234-907-758-7014</a>
                             </li>
                             <li className="mb-4 text-white">
-                                <a href="#" className="hover:underline">Address: 2 Fanaye Street, Off Borno Way, Alagomeji-Yaba, Lagos </a>
+                                <a href="#" className="hover:underline">Address: 2nd Floor, west wing, Cityhall building , Catholic Mission Street , Lagos Island, Lagos State a</a>
+                                </li>
+                            <li className="mb-4 text-white">
+                                <a href="#" className="hover:underline">Annex office : 2 Fanaye Street, Off Borno Way, Alagomeji-Yaba, Lagos </a>
                             </li>
                         </ul>
                     </div>
