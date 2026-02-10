@@ -22,7 +22,7 @@ const CareerPage = () => {
   // Sample data (will be replaced with API data)
   const sampleJobs = [
     {
-      id: 1,
+      id:'product-designer' ,
       category: 'Design',
       title: 'Product Designer',
       remote: true,
@@ -30,7 +30,7 @@ const CareerPage = () => {
       experience: '2-4 Years'
     },
     {
-      id: 2,
+      id:'Engineering Manager',
       category: 'Development',
       title: 'Engineering Manager',
       remote: true,
@@ -38,7 +38,7 @@ const CareerPage = () => {
       experience: '3-5 Years'
     },
     {
-      id: 3,
+      id: 'Customer Success Manager',
       category: 'Customer Service',
       title: 'Customer Success Manager',
       remote: true,

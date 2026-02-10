@@ -28,7 +28,7 @@ function Contactlink  () {
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-[#C4942D]">Email us</h5>
                     </a>
-                    <p className="mb-3 font-normal text-gray-500 text-sm">Simple drop us an email at info@nexantconsult.com and you'll receive a reply within 24 hours</p>
+                    <p className="mb-3 font-normal text-gray-500 text-sm">Simple drop us an email at info@nexantgroup.com and you'll receive a reply within 24 hours</p>
                     <a href="#" class="inline-flex items-center text-[#C4942D] hover:underline">
                     Email us
                     <img src={emailsvg} className='w-4 h-4 ml-[10px]' alt="" />

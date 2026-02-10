@@ -10,11 +10,12 @@ import QA from './pages/QA';
 import JobPage from './pages/JobPage';
 import JobDetailsPage from './pages/JobDetailsPage';
 import JobApplicationForm from './pages/JobApplicationForm';
-
+// import Maintenance from './pages/Maintenance'
 function App() {
 
   return (
     <div>
+      {/* <Maintenance/> */}
       <Router>
         <Routes>
             <Route path='/' element={<Home />} />
@@ -27,7 +28,6 @@ function App() {
             <Route path='/jobpage' element={<JobPage />} />
             <Route path="/careers/:jobId" element={<JobDetailsPage />} />
             <Route path="/careers/:jobId/apply" element={<JobApplicationForm />} />
-            
         </Routes>
       </Router>
       {/* how far when u have this code you should see this the best way to structure your code is to separate some components and pages
