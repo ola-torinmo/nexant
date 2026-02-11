@@ -27,10 +27,10 @@ const QA = () => {
           Quality Policy <br />
         </h3>
         <p>
-          Nexant Consulting Limited was incorporated on the 13th of July 2010 as a Construction Management and Engineering Consulting firm to offer Strategic Project Planning, Railway Consultancy Services, Feasibility Studies, Design, Construction Project Supervision and Management, Sustainability Consulting, and Project-Scope Definition and Development.
+          Nexant Consulting Limited was incorporated on the 13th of July 2010 as a Construction Management and Engineering Consulting firm to offer Strategic Project Planning, Railway Consultancy Services, Feasibility Studies, Design, Construction Project Supervision and Management, Sustainability Consulting, and Project Scope Definition and Development.
         </p>
         <p>
-          Our <strong>MISSION</strong> is to deliver world-class infrastructure and engineering consultancy services by reinforcing our worldwide corporate alliances and upholding top-tier quality and ethical standards, and our <strong>VISION</strong> is to globally set a tradition of excellent consultancy services that continually exceed customer expectations. At Nexant, Professionalism, Excellence, Corporate Social Responsibility and Teamwork are the core <strong>VALUES</strong> we share and have come to relish over time.
+          Our MISSION is to deliver world-class infrastructure and engineering consultancy services by reinforcing our worldwide corporate alliances and upholding top-tier quality and ethical standards, and our VISION is to globally set a tradition of excellent consultancy services that continually exceed customer expectations. At Nexant, Professionalism, Excellence, Corporate Social Responsibility and Teamwork are the core VALUES we share and have come to relish over time. 
         </p>
         <p>
           Nexant Consulting Limited operates within the context of the following goals, which also define our strategic direction: Enhancement of Customer Satisfaction, Establishment of Organizational Capacity, Achievement of Operational Efficiency, Sustainment of Financial Growth, and Promotion of Corporate Social Responsibility.
@@ -46,7 +46,7 @@ const QA = () => {
         </p>
         <ul className='list-disc pl-6 space-y-2'>
           <li>Taking proactive steps to understand and articulate our customers' needs and expectations, as well as those of our other stakeholders;</li>
-          <li>Establishing quality objectives that are consistent with our quality policy, measuring the extent of achievement of set quality objectives and carrying out regular management reviews for consistency and improvement of our capacity to always meet set quality objectives;</li>
+          <li>Establishing quality objectives that are consistent with our quality policy, measuring the extent of achievement of set quality objectives</li>
           <li>Training of our personnel and encouraging personal and professional development of our staff; ensuring that our external providers key into our Quality Management System for continual provision of products and services that meet our customers' requirements;</li>
           <li>Communicating to the staff the need for continuous implementation of the requirements of the Quality Management System and achieving quality objectives.</li>
         </ul>
