@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Navbar from '../component/Navbar';
 import Jumbotron from '../component/Jumbotron';
@@ -41,7 +42,7 @@ function Project ()  {
     <Headline2 img={completed} png={png1}
     title="Design Review and Construction Supervison of Light Rail Mass Transit (LRMT) Red Line Project"
     
-    description="RedLine is a 37km rail route that runs from Agbado to Marina.   LASGhas been granted track access from the Federal Government for the Red Line onthe NRC standard gauge from Agbado to Ebute Metta Junction (EBJ) and Right ofWay for an independent and dedicated rail track From EBJ to Oyingbo.   " />
+    description="RedLine is a 37km rail route that runs from Agbado to Marina.   LASGhas been granted track access from the Federal Government for the Red Line onthe NRC standard gauge from Agbado to Ebute Metta Junction (EBJ) and Right ofWay for an independent and dedicated rail track From EBJ to Oyingbo.    " />
     <Media media={media1}/>
 
     {/* 2 */}
@@ -49,7 +50,11 @@ function Project ()  {
     title="Design & Construction of Light Rail Transit System from Marina to Okokomaiko (Blue-Line) Project."
     
     description="The entire blue line Rail alignment will run a total distance of about 27 kilometers from marina to Okokomaiko and will be served by 11 stations (Marina, Ebute Ero, Iddo Iganmu, Alaba, Mile 2, Festac, Alakija, Trade Fair, Volkswagen, LASU and Okokomaiko). Marina to Iganmu is an elevated track descending before Iganmu station and extending at grade all the way to Okokomaiko. Marina station to National theatre station spans a distance of around 5.0 kilometers on an elevated track including a 530-meter-long sea cross bridge."   />
-    <Media media={media2}/>
+
+    <Media
+      media={media2}
+      video="/blue-line-phase-two.mp4"
+    />
 
     {/* 3 */}
     <Headline2 img={completed} png={png3} 
@@ -90,14 +95,14 @@ function Project ()  {
     <Headline2 img={completed} png={png8} 
     title="The Nigeria Railway Corporation Technical School –Audit"
    
-    description="Nexant Consulting was commissioned to carry out an audit of The Nigerian Railway Corporation’s existing Training Institute, with a view to assessing the possibility of this facility being upgraded to a Regional Technical Training Institute for General Electric (GE).  This is required as part of GE’s vision to build competence in Locomotive Assembly/Maintenance in Nigeria to support the 10 Year Nigeria Railway concession agreement that is currently being negotiated with the Federal Government."   />
+    description="Nexant Consulting was commissioned to carry out an audit of The Nigerian Railway Corporation’s existing Training Institute, with a view to assessing the possibility of this facility being upgraded to a Regional Technical Training Institute for General Electric (GE).  This is required as part of GE’s vision to build competence in Locomotive Assembly/Maintenance in Nigeria to support the 10 Year Nigeria Railway concession agreement that is currently being negotiated with the Federal Government."   />
     <Media media={media8}/>
 
     {/* 9 */}
     <Headline2 img={completed} png={png9} 
     title="Mechanical Modification Works in SPDC Producing"
    
-    description="The project entailed ensuring the successful mechanical modification of works in the Shell Petroleum Development Company land facilities east, comprising facilities in Rivers, Bayelsa, Imo, IMO Ibom and Abia states of Nigeria. It also included land facilities west, comprising facilities in Delta, Edo and Bayelsa states of Nigeria.   Nexant’s duties as project manager supervised modification works and other pertinent aspects of the project and managed funds as being expended by the contractor."   />
+    description="The project entailed ensuring the successful mechanical modification of works in the Shell Petroleum Development Company land facilities east, comprising facilities in Rivers, Bayelsa, Imo, IMO Ibom and Abia states of Nigeria. It also included land facilities west, comprising facilities in Delta, Edo and Bayelsa states of Nigeria.   Nexant’s duties as project manager supervised modification works and other pertinent aspects of the project and managed funds as being expended by the contractor."   />
     <Media media={media9}/>
 
     {/* 10 */}
@@ -111,8 +116,6 @@ function Project ()  {
 
       The construction of the East and Wing phase of the project was let to Gamji Nigeria Limited. On the 1st of October 2011, Gamji retained Nexant as Project Managers to oversee the construction and supervision of the project, which involved the construction of substructure and superstructure"   />
     <Media media={media10} />
-
-
 
     <Footer/>
     
